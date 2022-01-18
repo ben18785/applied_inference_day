@@ -1,0 +1,13 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\beamer@endinputifotherversion {3.36pt}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {1}{Bayesian inference refresher}{4}{0}{1}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {2}{MCMC refresher}{7}{0}{2}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {3}{Judging convergence of chains to posterior}{38}{0}{3}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {4}{Adaptive covariance MCMC}{68}{0}{4}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {5}{Ordinary differential equations}{74}{0}{5}

@@ -1,0 +1,3165 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.6.7)  18 JAN 2022 12:11
+entering extended mode
+ \write18 enabled.
+ %&-line parsing enabled.
+**applied_ode_modelling.tex
+(./applied_ode_modelling.tex
+LaTeX2e <2016/03/31>
+Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/beamer.cls
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/beamerbasercs.sty
+Package: beamerbasercs 2015/03/08 (rcs-revision 368aa9ba9d38)
+)
+Document Class: beamer 2015/01/05 3.36 A class for typesetting presentations (r
+cs-revision 8a39122e1f63)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/beamerbasemodes.sty
+Package: beamerbasemodes 2013/09/03 (rcs-revision 768f2d98ca64)
+\beamer@tempbox=\box26
+\beamer@tempcount=\count79
+\c@beamerpauses=\count80
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/beamerbasedecode.sty
+Package: beamerbasedecode 2010/05/01 (rcs-revision efa082c6111d)
+\beamer@slideinframe=\count81
+\beamer@minimum=\count82
+)
+\beamer@commentbox=\box27
+\beamer@modecount=\count83
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
+)
+\headheight=\dimen102
+\headdp=\dimen103
+\footheight=\dimen104
+\sidebarheight=\dimen105
+\beamer@tempdim=\dimen106
+\beamer@finalheight=\dimen107
+\beamer@animht=\dimen108
+\beamer@animdp=\dimen109
+\beamer@animwd=\dimen110
+\beamer@leftmargin=\dimen111
+\beamer@rightmargin=\dimen112
+\beamer@leftsidebar=\dimen113
+\beamer@rightsidebar=\dimen114
+\beamer@boxsize=\dimen115
+\beamer@vboxoffset=\dimen116
+\beamer@descdefault=\dimen117
+\beamer@descriptionwidth=\dimen118
+\beamer@lastskip=\skip41
+\beamer@areabox=\box28
+\beamer@animcurrent=\box29
+\beamer@animshowbox=\box30
+\beamer@sectionbox=\box31
+\beamer@logobox=\box32
+\beamer@linebox=\box33
+\beamer@sectioncount=\count84
+\beamer@subsubsectionmax=\count85
+\beamer@subsectionmax=\count86
+\beamer@sectionmax=\count87
+\beamer@totalheads=\count88
+\beamer@headcounter=\count89
+\beamer@partstartpage=\count90
+\beamer@sectionstartpage=\count91
+\beamer@subsectionstartpage=\count92
+\beamer@animationtempa=\count93
+\beamer@animationtempb=\count94
+\beamer@xpos=\count95
+\beamer@ypos=\count96
+\beamer@showpartnumber=\count97
+\beamer@currentsubsection=\count98
+\beamer@coveringdepth=\count99
+\beamer@sectionadjust=\count100
+\beamer@tocsectionnumber=\count101
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/beamerbaseoptions.sty
+Package: beamerbaseoptions 2013/03/10 (rcs-revision 47431932db0d)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+))
+\beamer@paperwidth=\skip42
+\beamer@paperheight=\skip43
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count102
+\Gm@cntv=\count103
+\c@Gm@tempcnt=\count104
+\Gm@bindingoffset=\dimen119
+\Gm@wd@mp=\dimen120
+\Gm@odd@mp=\dimen121
+\Gm@even@mp=\dimen122
+\Gm@layoutwidth=\dimen123
+\Gm@layoutheight=\dimen124
+\Gm@layouthoffset=\dimen125
+\Gm@layoutvoffset=\dimen126
+\Gm@dimlist=\toks15
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2016/05/09 v1.0r Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/01/02 v1.10 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 96.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count105
+))
+\Gin@req@height=\dimen127
+\Gin@req@width=\dimen128
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
+x
+\pgfutil@everybye=\toks16
+\pgfutil@tempdima=\dimen129
+\pgfutil@tempdimb=\dimen130
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-li
+sts.tex))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box34
+(/usr/local/texlive/2016/texmf-dist/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
+))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks17
+\pgfkeys@temptoks=\toks18
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.c
+ode.tex
+\pgfkeys@tmptoks=\toks19
+))
+\pgf@x=\dimen131
+\pgf@y=\dimen132
+\pgf@xa=\dimen133
+\pgf@ya=\dimen134
+\pgf@xb=\dimen135
+\pgf@yb=\dimen136
+\pgf@xc=\dimen137
+\pgf@yc=\dimen138
+\w@pgf@writea=\write3
+\r@pgf@reada=\read1
+\c@pgf@counta=\count106
+\c@pgf@countb=\count107
+\c@pgf@countc=\count108
+\c@pgf@countd=\count109
+\t@pgf@toka=\toks20
+\t@pgf@tokb=\toks21
+\t@pgf@tokc=\toks22
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.d
+ef
+File: pgfsys-pdftex.def 2014/10/11  (rcs-revision 1.35)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-p
+df.def
+File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
+)))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
+code.tex
+File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
+\pgfsyssoftpath@smallbuffer@items=\count110
+\pgfsyssoftpath@bigbuffer@items=\count111
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
+code.tex
+File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
+)) (/usr/local/texlive/2016/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen139
+\pgfmath@count=\count112
+\pgfmath@box=\box35
+\pgfmath@toks=\toks23
+\pgfmath@stack@operand=\toks24
+\pgfmath@stack@operation=\toks25
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.
+tex
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic
+.code.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigo
+nometric.code.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.rando
+m.code.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.compa
+rison.code.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.
+code.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round
+.code.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.
+code.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integ
+erarithmetics.code.tex)))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count113
+))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
+de.tex
+File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
+\pgf@picminx=\dimen140
+\pgf@picmaxx=\dimen141
+\pgf@picminy=\dimen142
+\pgf@picmaxy=\dimen143
+\pgf@pathminx=\dimen144
+\pgf@pathmaxx=\dimen145
+\pgf@pathminy=\dimen146
+\pgf@pathmaxy=\dimen147
+\pgf@xx=\dimen148
+\pgf@xy=\dimen149
+\pgf@yx=\dimen150
+\pgf@yy=\dimen151
+\pgf@zx=\dimen152
+\pgf@zy=\dimen153
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconst
+ruct.code.tex
+File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
+\pgf@path@lastx=\dimen154
+\pgf@path@lasty=\dimen155
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage
+.code.tex
+File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
+\pgf@shorten@end@additional=\dimen156
+\pgf@shorten@start@additional=\dimen157
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.co
+de.tex
+File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
+\pgfpic=\box36
+\pgf@hbox=\box37
+\pgf@layerbox@main=\box38
+\pgf@picture@serial@count=\count114
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
+ate.code.tex
+File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
+\pgflinewidth=\dimen158
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransform
+ations.code.tex
+File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
+\pgf@pt@x=\dimen159
+\pgf@pt@y=\dimen160
+\pgf@pt@temp=\dimen161
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.cod
+e.tex
+File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.c
+ode.tex
+File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathproce
+ssing.code.tex
+File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.co
+de.tex
+File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
+\pgfarrowsep=\dimen162
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.cod
+e.tex
+File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
+\pgf@max=\dimen163
+\pgf@sys@shading@range@num=\count115
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
+e.tex
+File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.
+code.tex
+File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
+\pgfexternal@startupbox=\box39
+))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.co
+de.tex
+File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretranspare
+ncy.code.tex
+File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.
+code.tex
+File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
+)))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/utilities/xxcolor.sty
+Package: xxcolor 2003/10/24 ver 0.1
+\XC@nummixins=\count116
+\XC@countmixins=\count117
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/atbegshi.sty
+Package: atbegshi 2016/05/16 v1.17 At begin shipout hook (HO)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2016/05/05 v6.83n Hypertext links for LaTeX
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package hobsub Info: Skipping package `ifvtex' (already loaded).
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package: pdftexcmds 2016/05/10 v0.21 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package hobsub Info: Skipping package `atbegshi' (already loaded).
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+)
+\@linkdim=\dimen164
+\Hy@linkcounter=\count118
+\Hy@pagecounter=\count119
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2016/05/05 v6.83n Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count120
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Option `bookmarks' set `true' on input line 4322.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 4322.
+Package hyperref Info: Option `implicit' set `false' on input line 4322.
+Package hyperref Info: Hyper figures OFF on input line 4446.
+Package hyperref Info: Link nesting OFF on input line 4451.
+Package hyperref Info: Hyper index ON on input line 4454.
+Package hyperref Info: Plain pages OFF on input line 4461.
+Package hyperref Info: Backreferencing OFF on input line 4466.
+Package hyperref Info: Implicit mode OFF; no redefinition of LaTeX internals.
+Package hyperref Info: Bookmarks ON on input line 4691.
+\c@Hy@tempcnt=\count121
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5044.
+\XeTeXLinkMargin=\dimen165
+\Fld@menulength=\count122
+\Field@Width=\dimen166
+\Fld@charsize=\dimen167
+Package hyperref Info: Hyper figures OFF on input line 6298.
+Package hyperref Info: Link nesting OFF on input line 6303.
+Package hyperref Info: Hyper index ON on input line 6306.
+Package hyperref Info: backreferencing OFF on input line 6313.
+Package hyperref Info: Link coloring OFF on input line 6318.
+Package hyperref Info: Link coloring with OCG OFF on input line 6323.
+Package hyperref Info: PDF/A mode OFF on input line 6328.
+LaTeX Info: Redefining \ref on input line 6368.
+LaTeX Info: Redefining \pageref on input line 6372.
+\Hy@abspage=\count123
+
+
+Package hyperref Message: Stopped early.
+
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2016/05/05 v6.83n Hyperref driver for pdfTeX
+\Fld@listcount=\count124
+\c@bookmark@seq@number=\count125
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/beamerbaserequires.sty
+Package: beamerbaserequires 2010/05/01  (rcs-revision efa082c6111d)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/beamerbasecompatibility.st
+y
+Package: beamerbasecompatibility 2012/05/01  (rcs-revision 67c48b3b652d)
+) (/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/beamerbasefont.sty
+Package: beamerbasefont 2015/01/05  (rcs-revision b4b4bee242e2)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks26
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/sansmathaccent/sansmathaccent.sty
+Package: sansmathaccent 2013/03/28
+(/usr/local/texlive/2016/texmf-dist/tex/latex/filehook/filehook.sty
+Package: filehook 2011/10/12 v0.5d Hooks for input files
+)))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/beamerbasetranslator.sty
+Package: beamerbasetranslator 2010/06/11  (rcs-revision 85fd1cc7fc42)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/translator/translator.sty
+Package: translator 2010/06/12 ver 1.10
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/translator/translator-lang
+uage-mappings.tex)))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/beamerbasemisc.sty
+Package: beamerbasemisc 2013/09/03  (rcs-revision a55719c41d85)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/beamerbasetwoscreens.sty
+Package: beamerbasetwoscreens 2010/05/01  (rcs-revision efa082c6111d)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/beamerbaseoverlay.sty
+Package: beamerbaseoverlay 2013/12/25  (rcs-revision f6bd5e3805da)
+\beamer@argscount=\count126
+\beamer@lastskipcover=\skip44
+\beamer@trivlistdepth=\count127
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/beamerbasetitle.sty
+Package: beamerbasetitle 2010/09/21  (rcs-revision f0446ed0b6ae)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/beamerbasesection.sty
+Package: beamerbasesection 2013/06/07  (rcs-revision 60b9fe0f342f)
+\c@lecture=\count128
+\c@part=\count129
+\c@section=\count130
+\c@subsection=\count131
+\c@subsubsection=\count132
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/beamerbaseframe.sty
+Package: beamerbaseframe 2014/02/20  (rcs-revision 4b8ceeeff434)
+\beamer@framebox=\box40
+\beamer@frametitlebox=\box41
+\beamer@zoombox=\box42
+\beamer@zoomcount=\count133
+\beamer@zoomframecount=\count134
+\beamer@frametextheight=\dimen168
+\c@subsectionslide=\count135
+\beamer@frametopskip=\skip45
+\beamer@framebottomskip=\skip46
+\beamer@frametopskipautobreak=\skip47
+\beamer@framebottomskipautobreak=\skip48
+\beamer@envbody=\toks27
+\framewidth=\dimen169
+\c@framenumber=\count136
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/beamerbaseverbatim.sty
+Package: beamerbaseverbatim 2015/01/05  (rcs-revision 431510bb5890)
+\beamer@verbatimfileout=\write4
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/beamerbaseframesize.sty
+Package: beamerbaseframesize 2011/09/12  (rcs-revision 70f9d8411e54)
+\beamer@splitbox=\box43
+\beamer@autobreakcount=\count137
+\beamer@autobreaklastheight=\dimen170
+\beamer@frametitletoks=\toks28
+\beamer@framesubtitletoks=\toks29
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/beamerbaseframecomponents.
+sty
+Package: beamerbaseframecomponents 2013/10/18  (rcs-revision 5cf6c5555a45)
+\beamer@footins=\box44
+) (/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/beamerbasecolor.sty
+Package: beamerbasecolor 2015/02/21  (rcs-revision d944b04ee2d5)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/beamerbasenotes.sty
+Package: beamerbasenotes 2012/12/19  (rcs-revision 1686da3db3c9)
+\beamer@frameboxcopy=\box45
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/beamerbasetoc.sty
+Package: beamerbasetoc 2015/03/08  (rcs-revision 7270298bbaae)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/beamerbasetemplates.sty
+Package: beamerbasetemplates 2010/05/01  (rcs-revision efa082c6111d)
+\beamer@sbttoks=\toks30
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/beamerbaseauxtemplates.sty
+Package: beamerbaseauxtemplates 2014/06/30  (rcs-revision 580088513a67)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/beamerbaseboxes.sty
+Package: beamerbaseboxes 2012/05/13  (rcs-revision 56972908a390)
+\bmb@box=\box46
+\bmb@colorbox=\box47
+\bmb@boxshadow=\box48
+\bmb@boxshadowball=\box49
+\bmb@boxshadowballlarge=\box50
+\bmb@temp=\dimen171
+\bmb@dima=\dimen172
+\bmb@dimb=\dimen173
+\bmb@prevheight=\dimen174
+)
+\beamer@blockheadheight=\dimen175
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/beamerbaselocalstructure.s
+ty
+Package: beamerbaselocalstructure 2014/09/10  (rcs-revision 393f6dcff371)
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/tools/enumerate.sty
+Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
+\@enLab=\toks31
+)
+\c@figure=\count138
+\c@table=\count139
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/beamerbasenavigation.sty
+Package: beamerbasenavigation 2015/02/27  (rcs-revision 923f4bf87efa)
+\beamer@section@min@dim=\dimen176
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/beamerbasetheorems.sty
+Package: beamerbasetheorems 2010/06/06  (rcs-revision 7e7cc5e53e9d)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2016/03/10 v2.15b AMS math features
+\@mathmargin=\skip51
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks32
+\ex@=\dimen177
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen178
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count140
+LaTeX Info: Redefining \frac on input line 199.
+\uproot@=\count141
+\leftroot@=\count142
+LaTeX Info: Redefining \overline on input line 297.
+\classnum@=\count143
+\DOTSCASE@=\count144
+LaTeX Info: Redefining \ldots on input line 394.
+LaTeX Info: Redefining \dots on input line 397.
+LaTeX Info: Redefining \cdots on input line 518.
+\Mathstrutbox@=\box51
+\strutbox@=\box52
+\big@size=\dimen179
+LaTeX Font Info:    Redeclaring font encoding OML on input line 634.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
+\macc@depth=\count145
+\c@MaxMatrixCols=\count146
+\dotsspace@=\muskip11
+\c@parentequation=\count147
+\dspbrk@lvl=\count148
+\tag@help=\toks33
+\row@=\count149
+\column@=\count150
+\maxfields@=\count151
+\andhelp@=\toks34
+\eqnshift@=\dimen180
+\alignsep@=\dimen181
+\tagshift@=\dimen182
+\tagwidth@=\dimen183
+\totwidth@=\dimen184
+\lineht@=\dimen185
+\@envbody=\toks35
+\multlinegap=\skip52
+\multlinetaggap=\skip53
+\mathdisplay@stack=\toks36
+LaTeX Info: Redefining \[ on input line 2739.
+LaTeX Info: Redefining \] on input line 2740.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2015/03/04 v2.20.2
+\thm@style=\toks37
+\thm@bodyfont=\toks38
+\thm@headfont=\toks39
+\thm@notefont=\toks40
+\thm@headpunct=\toks41
+\thm@preskip=\skip54
+\thm@postskip=\skip55
+\thm@headsep=\skip56
+\dth@everypar=\toks42
+)
+\c@theorem=\count152
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/beamerbasethemes.sty
+Package: beamerbasethemes 2010/05/01  (rcs-revision efa082c6111d)
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/themes/theme/beamerthemede
+fault.sty
+Package: beamerthemedefault 2010/06/17  (rcs-revision d02a7cf4d8ae)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/themes/font/beamerfontthem
+edefault.sty
+Package: beamerfontthemedefault 2012/12/19  (rcs-revision 1686da3db3c9)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/themes/color/beamercolorth
+emedefault.sty
+Package: beamercolorthemedefault 2012/12/19  (rcs-revision 1686da3db3c9)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/themes/inner/beamerinnerth
+emedefault.sty
+Package: beamerinnerthemedefault 2014/06/30  (rcs-revision 580088513a67)
+\beamer@dima=\dimen186
+\beamer@dimb=\dimen187
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/themes/outer/beamerouterth
+emedefault.sty
+Package: beamerouterthemedefault 2012/12/19  (rcs-revision 1686da3db3c9)
+)))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.cod
+e.tex
+File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
+\pgfnodeparttextbox=\box53
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.
+tex
+File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-0-65.sty
+Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
+\pgf@nodesepstart=\dimen188
+\pgf@nodesepend=\dimen189
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-1-18.sty
+Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)
+) (/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen190
+\pgffor@skip=\dimen191
+\pgffor@stack=\toks43
+\pgffor@toks=\toks44
+))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.cod
+e.tex
+Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
+dlers.code.tex
+File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
+\pgf@plot@mark@count=\count153
+\pgfplotmarksize=\dimen192
+)
+\tikz@lastx=\dimen193
+\tikz@lasty=\dimen194
+\tikz@lastxsaved=\dimen195
+\tikz@lastysaved=\dimen196
+\tikzleveldistance=\dimen197
+\tikzsiblingdistance=\dimen198
+\tikz@figbox=\box54
+\tikz@figbox@bg=\box55
+\tikz@tempbox=\box56
+\tikz@tempbox@bg=\box57
+\tikztreelevel=\count154
+\tikznumberofchildren=\count155
+\tikznumberofcurrentchild=\count156
+\tikz@fig@count=\count157
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
+e.tex
+File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
+\pgfmatrixcurrentrow=\count158
+\pgfmatrixcurrentcolumn=\count159
+\pgf@matrix@numberofcolumns=\count160
+)
+\tikz@expandcount=\count161
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
+)))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/pifont.sty
+Package: pifont 2005/04/12 PSNFSS-v9.2a Pi font support (SPQR) 
+LaTeX Font Info:    Try loading font information for U+pzd on input line 63.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/upzd.fd
+File: upzd.fd 2001/06/04 font definitions for U/pzd.
+)
+LaTeX Font Info:    Try loading font information for U+psy on input line 64.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/upsy.fd
+File: upsy.fd 2001/06/04 font definitions for U/psy.
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2016/05/14 v3.4 programmable bibliographies (PK/JW/AB)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2013/04/04 v0.2 Provides if(tex) conditional for PDFTeX, XeTeX, 
+and LuaTeX
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2015/08/02 v2.2a e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count162
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/logreq/logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count163
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/logreq/logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/xstring/xstring.sty
+(/usr/local/texlive/2016/texmf-dist/tex/generic/xstring/xstring.tex
+\@xs@message=\write5
+\integerpart=\count164
+\decimalpart=\count165
+)
+Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
+)
+\c@tabx@nest=\count166
+\c@listtotal=\count167
+\c@listcount=\count168
+\c@liststart=\count169
+\c@liststop=\count170
+\c@citecount=\count171
+\c@citetotal=\count172
+\c@multicitecount=\count173
+\c@multicitetotal=\count174
+\c@instcount=\count175
+\c@maxnames=\count176
+\c@minnames=\count177
+\c@maxitems=\count178
+\c@minitems=\count179
+\c@citecounter=\count180
+\c@savedcitecounter=\count181
+\c@uniquelist=\count182
+\c@uniquename=\count183
+\c@refsection=\count184
+\c@refsegment=\count185
+\c@maxextratitle=\count186
+\c@maxextratitleyear=\count187
+\c@maxextrayear=\count188
+\c@maxextraalpha=\count189
+\c@abbrvpenalty=\count190
+\c@highnamepenalty=\count191
+\c@lownamepenalty=\count192
+\c@maxparens=\count193
+\c@parenlevel=\count194
+\blx@tempcnta=\count195
+\blx@tempcntb=\count196
+\blx@tempcntc=\count197
+\blx@maxsection=\count198
+\blx@maxsegment@0=\count199
+\blx@notetype=\count266
+\blx@parenlevel@text=\count267
+\blx@parenlevel@foot=\count268
+\blx@sectionciteorder@0=\count269
+\labelnumberwidth=\skip57
+\labelalphawidth=\skip58
+\biblabelsep=\skip59
+\bibitemsep=\skip60
+\bibnamesep=\skip61
+\bibinitsep=\skip62
+\bibparsep=\skip63
+\bibhang=\skip64
+\blx@bcfin=\read2
+\blx@bcfout=\write6
+\c@mincomprange=\count270
+\c@maxcomprange=\count271
+\c@mincompwidth=\count272
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/biblatex/blx-dm.def)
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count273
+\c@savedafterword=\count274
+\c@annotator=\count275
+\c@savedannotator=\count276
+\c@author=\count277
+\c@savedauthor=\count278
+\c@bookauthor=\count279
+\c@savedbookauthor=\count280
+\c@commentator=\count281
+\c@savedcommentator=\count282
+\c@editor=\count283
+\c@savededitor=\count284
+\c@editora=\count285
+\c@savededitora=\count286
+\c@editorb=\count287
+\c@savededitorb=\count288
+\c@editorc=\count289
+\c@savededitorc=\count290
+\c@foreword=\count291
+\c@savedforeword=\count292
+\c@holder=\count293
+\c@savedholder=\count294
+\c@introduction=\count295
+\c@savedintroduction=\count296
+\c@namea=\count297
+\c@savednamea=\count298
+\c@nameb=\count299
+\c@savednameb=\count300
+\c@namec=\count301
+\c@savednamec=\count302
+\c@translator=\count303
+\c@savedtranslator=\count304
+\c@shortauthor=\count305
+\c@savedshortauthor=\count306
+\c@shorteditor=\count307
+\c@savedshorteditor=\count308
+\c@labelname=\count309
+\c@savedlabelname=\count310
+\c@institution=\count311
+\c@savedinstitution=\count312
+\c@lista=\count313
+\c@savedlista=\count314
+\c@listb=\count315
+\c@savedlistb=\count316
+\c@listc=\count317
+\c@savedlistc=\count318
+\c@listd=\count319
+\c@savedlistd=\count320
+\c@liste=\count321
+\c@savedliste=\count322
+\c@listf=\count323
+\c@savedlistf=\count324
+\c@location=\count325
+\c@savedlocation=\count326
+\c@organization=\count327
+\c@savedorganization=\count328
+\c@origlocation=\count329
+\c@savedoriglocation=\count330
+\c@origpublisher=\count331
+\c@savedorigpublisher=\count332
+\c@publisher=\count333
+\c@savedpublisher=\count334
+\c@language=\count335
+\c@savedlanguage=\count336
+\c@pageref=\count337
+\c@savedpageref=\count338
+\shorthandwidth=\skip65
+\shortjournalwidth=\skip66
+\shortserieswidth=\skip67
+\shorttitlewidth=\skip68
+\shortauthorwidth=\skip69
+\shorteditorwidth=\skip70
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/biblatex/blx-compat.def
+File: blx-compat.def 2016/05/14 v3.4 biblatex compatibility (PK/JW/AB)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/biblatex/biblatex.def
+File: biblatex.def 2016/05/14 v3.4 biblatex compatibility (PK/JW/AB)
+\c@textcitecount=\count339
+\c@textcitetotal=\count340
+\c@textcitemaxnames=\count341
+\c@biburlnumpenalty=\count342
+\c@biburlucpenalty=\count343
+\c@biburllcpenalty=\count344
+\c@smartand=\count345
+)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+File: numeric.bbx 2016/05/14 v3.4 biblatex bibliography style (PK/JW/AB)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+File: standard.bbx 2016/05/14 v3.4 biblatex bibliography style (PK/JW/AB)
+\c@bbx:relatedcount=\count346
+\c@bbx:relatedtotal=\count347
+))
+Package biblatex Info: Trying to load citation style 'numeric'...
+Package biblatex Info: ... file 'numeric.cbx' found.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx
+File: numeric.cbx 2016/05/14 v3.4 biblatex citation style (PK/JW/AB)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/biblatex/biblatex.cfg
+File: biblatex.cfg 
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/themes/theme/beamerthemePa
+loAlto.sty
+Package: beamerthemePaloAlto 2010/06/17  (rcs-revision d02a7cf4d8ae)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/themes/outer/beamerouterth
+emesidebar.sty
+Package: beamerouterthemesidebar 2010/06/17  (rcs-revision d02a7cf4d8ae)
+\beamer@sidebarwidth=\dimen199
+\beamer@headheight=\dimen256
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/themes/inner/beamerinnerth
+emerounded.sty
+Package: beamerinnerthemerounded 2010/06/17  (rcs-revision d02a7cf4d8ae)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/themes/color/beamercolorth
+emeorchid.sty
+Package: beamercolorthemeorchid 2010/06/17  (rcs-revision d02a7cf4d8ae)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/themes/color/beamercolorth
+emewhale.sty
+Package: beamercolorthemewhale 2010/06/17  (rcs-revision d02a7cf4d8ae)
+))
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\\' on input line 11.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/datetime/datetime.sty
+Package: datetime 2015/03/20 v2.60 Date Time Package
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/fmtcount/fmtcount.sty
+Package: fmtcount 2015/05/05 v3.01
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2016/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks45
+\XKV@tempa@toks=\toks46
+)
+\XKV@depth=\count348
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/fmtcount/fcprefix.sty
+Package: fcprefix 2012/09/28
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/fmtcount/fcnumparser.sty
+Package: fcnumparser 2012/09/28
+\fc@digit@counter=\count349
+))
+\c@padzeroesN=\count350
+\fc@tmpcatcode=\count351
+\@DT@modctr=\count352
+\@ordinalctr=\count353
+\@orgargctr=\count354
+\@strctr=\count355
+\@tmpstrctr=\count356
+\@DT@loopN=\count357
+\@DT@X=\count358
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/fmtcount/fc-english.def
+File: fc-english.def 2013/08/17
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/datetime/datetime-defaults.sty
+Package: datetime-defaults 2013/09/10
+)
+\@day=\count359
+\@month=\count360
+\@year=\count361
+\c@HOUR=\count362
+\c@HOURXII=\count363
+\c@MINUTE=\count364
+\c@TOHOUR=\count365
+\c@TOMINUTE=\count366
+\c@SECOND=\count367
+\currenthour=\count368
+\currentminute=\count369
+\currentsecond=\count370
+Package datetime Info: No datetime.cfg file found, using default settings on in
+put line 308.
+\@dtctr=\count371
+\dayofyear=\count372
+\dayofweek=\count373
+LaTeX Info: Redefining \today on input line 736.
+\dt@a=\toks47
+\dt@b=\toks48
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2016/02/04 v1.7-139 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
+\captionmargin=\dimen257
+\captionmargin@=\dimen258
+\captionwidth=\dimen259
+\caption@tempdima=\dimen260
+\caption@indent=\dimen261
+\caption@parindent=\dimen262
+\caption@hangindent=\dimen263
+)
+\c@ContinuedFloat=\count374
+Package caption Info: beamer document class.
+Package caption Info: hyperref package is loaded.
+Package caption Info: Hyperref support is turned off
+(caption)             because hyperref has stopped early.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2015/03/17 v1.2c Input encoding file
+\inpenc@prehook=\toks49
+\inpenc@posthook=\toks50
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+Now handling font encoding OML ...
+... no UTF-8 mapping file for font encoding OML
+Now handling font encoding T1 ...
+... processing UTF-8 mapping file for font encoding T1
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/t1enc.dfu
+File: t1enc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
+   defining Unicode char U+00A0 (decimal 160)
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00AD (decimal 173)
+   defining Unicode char U+00BB (decimal 187)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C0 (decimal 192)
+   defining Unicode char U+00C1 (decimal 193)
+   defining Unicode char U+00C2 (decimal 194)
+   defining Unicode char U+00C3 (decimal 195)
+   defining Unicode char U+00C4 (decimal 196)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00C7 (decimal 199)
+   defining Unicode char U+00C8 (decimal 200)
+   defining Unicode char U+00C9 (decimal 201)
+   defining Unicode char U+00CA (decimal 202)
+   defining Unicode char U+00CB (decimal 203)
+   defining Unicode char U+00CC (decimal 204)
+   defining Unicode char U+00CD (decimal 205)
+   defining Unicode char U+00CE (decimal 206)
+   defining Unicode char U+00CF (decimal 207)
+   defining Unicode char U+00D0 (decimal 208)
+   defining Unicode char U+00D1 (decimal 209)
+   defining Unicode char U+00D2 (decimal 210)
+   defining Unicode char U+00D3 (decimal 211)
+   defining Unicode char U+00D4 (decimal 212)
+   defining Unicode char U+00D5 (decimal 213)
+   defining Unicode char U+00D6 (decimal 214)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00D9 (decimal 217)
+   defining Unicode char U+00DA (decimal 218)
+   defining Unicode char U+00DB (decimal 219)
+   defining Unicode char U+00DC (decimal 220)
+   defining Unicode char U+00DD (decimal 221)
+   defining Unicode char U+00DE (decimal 222)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E0 (decimal 224)
+   defining Unicode char U+00E1 (decimal 225)
+   defining Unicode char U+00E2 (decimal 226)
+   defining Unicode char U+00E3 (decimal 227)
+   defining Unicode char U+00E4 (decimal 228)
+   defining Unicode char U+00E5 (decimal 229)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00E7 (decimal 231)
+   defining Unicode char U+00E8 (decimal 232)
+   defining Unicode char U+00E9 (decimal 233)
+   defining Unicode char U+00EA (decimal 234)
+   defining Unicode char U+00EB (decimal 235)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F0 (decimal 240)
+   defining Unicode char U+00F1 (decimal 241)
+   defining Unicode char U+00F2 (decimal 242)
+   defining Unicode char U+00F3 (decimal 243)
+   defining Unicode char U+00F4 (decimal 244)
+   defining Unicode char U+00F5 (decimal 245)
+   defining Unicode char U+00F6 (decimal 246)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+00F9 (decimal 249)
+   defining Unicode char U+00FA (decimal 250)
+   defining Unicode char U+00FB (decimal 251)
+   defining Unicode char U+00FC (decimal 252)
+   defining Unicode char U+00FD (decimal 253)
+   defining Unicode char U+00FE (decimal 254)
+   defining Unicode char U+00FF (decimal 255)
+   defining Unicode char U+0100 (decimal 256)
+   defining Unicode char U+0101 (decimal 257)
+   defining Unicode char U+0102 (decimal 258)
+   defining Unicode char U+0103 (decimal 259)
+   defining Unicode char U+0104 (decimal 260)
+   defining Unicode char U+0105 (decimal 261)
+   defining Unicode char U+0106 (decimal 262)
+   defining Unicode char U+0107 (decimal 263)
+   defining Unicode char U+0108 (decimal 264)
+   defining Unicode char U+0109 (decimal 265)
+   defining Unicode char U+010A (decimal 266)
+   defining Unicode char U+010B (decimal 267)
+   defining Unicode char U+010C (decimal 268)
+   defining Unicode char U+010D (decimal 269)
+   defining Unicode char U+010E (decimal 270)
+   defining Unicode char U+010F (decimal 271)
+   defining Unicode char U+0110 (decimal 272)
+   defining Unicode char U+0111 (decimal 273)
+   defining Unicode char U+0112 (decimal 274)
+   defining Unicode char U+0113 (decimal 275)
+   defining Unicode char U+0114 (decimal 276)
+   defining Unicode char U+0115 (decimal 277)
+   defining Unicode char U+0116 (decimal 278)
+   defining Unicode char U+0117 (decimal 279)
+   defining Unicode char U+0118 (decimal 280)
+   defining Unicode char U+0119 (decimal 281)
+   defining Unicode char U+011A (decimal 282)
+   defining Unicode char U+011B (decimal 283)
+   defining Unicode char U+011C (decimal 284)
+   defining Unicode char U+011D (decimal 285)
+   defining Unicode char U+011E (decimal 286)
+   defining Unicode char U+011F (decimal 287)
+   defining Unicode char U+0120 (decimal 288)
+   defining Unicode char U+0121 (decimal 289)
+   defining Unicode char U+0122 (decimal 290)
+   defining Unicode char U+0123 (decimal 291)
+   defining Unicode char U+0124 (decimal 292)
+   defining Unicode char U+0125 (decimal 293)
+   defining Unicode char U+0128 (decimal 296)
+   defining Unicode char U+0129 (decimal 297)
+   defining Unicode char U+012A (decimal 298)
+   defining Unicode char U+012B (decimal 299)
+   defining Unicode char U+012C (decimal 300)
+   defining Unicode char U+012D (decimal 301)
+   defining Unicode char U+012E (decimal 302)
+   defining Unicode char U+012F (decimal 303)
+   defining Unicode char U+0130 (decimal 304)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0132 (decimal 306)
+   defining Unicode char U+0133 (decimal 307)
+   defining Unicode char U+0134 (decimal 308)
+   defining Unicode char U+0135 (decimal 309)
+   defining Unicode char U+0136 (decimal 310)
+   defining Unicode char U+0137 (decimal 311)
+   defining Unicode char U+0139 (decimal 313)
+   defining Unicode char U+013A (decimal 314)
+   defining Unicode char U+013B (decimal 315)
+   defining Unicode char U+013C (decimal 316)
+   defining Unicode char U+013D (decimal 317)
+   defining Unicode char U+013E (decimal 318)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0143 (decimal 323)
+   defining Unicode char U+0144 (decimal 324)
+   defining Unicode char U+0145 (decimal 325)
+   defining Unicode char U+0146 (decimal 326)
+   defining Unicode char U+0147 (decimal 327)
+   defining Unicode char U+0148 (decimal 328)
+   defining Unicode char U+014A (decimal 330)
+   defining Unicode char U+014B (decimal 331)
+   defining Unicode char U+014C (decimal 332)
+   defining Unicode char U+014D (decimal 333)
+   defining Unicode char U+014E (decimal 334)
+   defining Unicode char U+014F (decimal 335)
+   defining Unicode char U+0150 (decimal 336)
+   defining Unicode char U+0151 (decimal 337)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0154 (decimal 340)
+   defining Unicode char U+0155 (decimal 341)
+   defining Unicode char U+0156 (decimal 342)
+   defining Unicode char U+0157 (decimal 343)
+   defining Unicode char U+0158 (decimal 344)
+   defining Unicode char U+0159 (decimal 345)
+   defining Unicode char U+015A (decimal 346)
+   defining Unicode char U+015B (decimal 347)
+   defining Unicode char U+015C (decimal 348)
+   defining Unicode char U+015D (decimal 349)
+   defining Unicode char U+015E (decimal 350)
+   defining Unicode char U+015F (decimal 351)
+   defining Unicode char U+0160 (decimal 352)
+   defining Unicode char U+0161 (decimal 353)
+   defining Unicode char U+0162 (decimal 354)
+   defining Unicode char U+0163 (decimal 355)
+   defining Unicode char U+0164 (decimal 356)
+   defining Unicode char U+0165 (decimal 357)
+   defining Unicode char U+0168 (decimal 360)
+   defining Unicode char U+0169 (decimal 361)
+   defining Unicode char U+016A (decimal 362)
+   defining Unicode char U+016B (decimal 363)
+   defining Unicode char U+016C (decimal 364)
+   defining Unicode char U+016D (decimal 365)
+   defining Unicode char U+016E (decimal 366)
+   defining Unicode char U+016F (decimal 367)
+   defining Unicode char U+0170 (decimal 368)
+   defining Unicode char U+0171 (decimal 369)
+   defining Unicode char U+0172 (decimal 370)
+   defining Unicode char U+0173 (decimal 371)
+   defining Unicode char U+0174 (decimal 372)
+   defining Unicode char U+0175 (decimal 373)
+   defining Unicode char U+0176 (decimal 374)
+   defining Unicode char U+0177 (decimal 375)
+   defining Unicode char U+0178 (decimal 376)
+   defining Unicode char U+0179 (decimal 377)
+   defining Unicode char U+017A (decimal 378)
+   defining Unicode char U+017B (decimal 379)
+   defining Unicode char U+017C (decimal 380)
+   defining Unicode char U+017D (decimal 381)
+   defining Unicode char U+017E (decimal 382)
+   defining Unicode char U+01CD (decimal 461)
+   defining Unicode char U+01CE (decimal 462)
+   defining Unicode char U+01CF (decimal 463)
+   defining Unicode char U+01D0 (decimal 464)
+   defining Unicode char U+01D1 (decimal 465)
+   defining Unicode char U+01D2 (decimal 466)
+   defining Unicode char U+01D3 (decimal 467)
+   defining Unicode char U+01D4 (decimal 468)
+   defining Unicode char U+01E2 (decimal 482)
+   defining Unicode char U+01E3 (decimal 483)
+   defining Unicode char U+01E6 (decimal 486)
+   defining Unicode char U+01E7 (decimal 487)
+   defining Unicode char U+01E8 (decimal 488)
+   defining Unicode char U+01E9 (decimal 489)
+   defining Unicode char U+01EA (decimal 490)
+   defining Unicode char U+01EB (decimal 491)
+   defining Unicode char U+01F0 (decimal 496)
+   defining Unicode char U+01F4 (decimal 500)
+   defining Unicode char U+01F5 (decimal 501)
+   defining Unicode char U+0218 (decimal 536)
+   defining Unicode char U+0219 (decimal 537)
+   defining Unicode char U+021A (decimal 538)
+   defining Unicode char U+021B (decimal 539)
+   defining Unicode char U+1E02 (decimal 7682)
+   defining Unicode char U+1E03 (decimal 7683)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2010 (decimal 8208)
+   defining Unicode char U+2011 (decimal 8209)
+   defining Unicode char U+2012 (decimal 8210)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2015 (decimal 8213)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201A (decimal 8218)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+201E (decimal 8222)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+2039 (decimal 8249)
+   defining Unicode char U+203A (decimal 8250)
+   defining Unicode char U+2423 (decimal 9251)
+)
+Now handling font encoding OT1 ...
+... processing UTF-8 mapping file for font encoding OT1
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ot1enc.dfu
+File: ot1enc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
+   defining Unicode char U+00A0 (decimal 160)
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AD (decimal 173)
+   defining Unicode char U+00B8 (decimal 184)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0174 (decimal 372)
+   defining Unicode char U+0175 (decimal 373)
+   defining Unicode char U+0176 (decimal 374)
+   defining Unicode char U+0177 (decimal 375)
+   defining Unicode char U+0218 (decimal 536)
+   defining Unicode char U+0219 (decimal 537)
+   defining Unicode char U+021A (decimal 538)
+   defining Unicode char U+021B (decimal 539)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+)
+Now handling font encoding OMS ...
+... processing UTF-8 mapping file for font encoding OMS
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/omsenc.dfu
+File: omsenc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+)
+Now handling font encoding OMX ...
+... no UTF-8 mapping file for font encoding OMX
+Now handling font encoding U ...
+... no UTF-8 mapping file for font encoding U
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+02C6 (decimal 710)
+   defining Unicode char U+02DC (decimal 732)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2026 (decimal 8230)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2423 (decimal 9251)
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/multimedia/multimedia.sty
+Package: multimedia 2012/05/02 ver 0.02
+\mm@movie=\count375
+) (/usr/local/texlive/2016/texmf-dist/tex/latex/animate/animate.sty
+Package: animate 2016/04/15 PDF animations from files and inline graphics
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/ifdraft.sty
+Package: ifdraft 2016/05/16 v1.4 Detect class options draft and final (HO)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count376
+\calc@Bcount=\count377
+\calc@Adimen=\dimen264
+\calc@Bdimen=\dimen265
+\calc@Askip=\skip71
+\calc@Bskip=\skip72
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count378
+\calc@Cskip=\skip73
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/atenddvi.sty
+Package: atenddvi 2016/05/16 v1.2 At end DVI hook (HO)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/zref-abspage.sty
+Package: zref-abspage 2016/05/16 v2.25 Module abspage for zref (HO)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/zref-base.sty
+Package: zref-base 2016/05/16 v2.25 Module base for zref (HO)
+Package zref Info: New property list: main on input line 759.
+Package zref Info: New property: default on input line 760.
+Package zref Info: New property: page on input line 761.
+)
+\c@abspage=\count379
+Package zref Info: New property: abspage on input line 62.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/zref-lastpage.sty
+Package: zref-lastpage 2016/05/16 v2.25 Module lastpage for zref (HO)
+Package zref Info: New property list: LastPage on input line 55.
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/animate/animfp.sty
+Package: animfp 2009/07/23 fixed point addition for animate.sty
+\afp@xs=\count380
+\afp@xia=\count381
+\afp@xib=\count382
+\afp@xfa=\count383
+\afp@xfb=\count384
+\afp@rega=\count385
+\afp@regb=\count386
+\afp@regs=\count387
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/media9/pdfbase.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2016/05/18 v6512 L3 programming layer (loader) 
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/l3kernel/expl3-code.tex
+Package: expl3 2016/05/18 v6512 L3 programming layer (code)
+L3 Module: l3bootstrap 2016/02/12 v6412 L3 Bootstrap code
+L3 Module: l3names 2016/03/11 v6433 L3 Namespace for primitives
+L3 Module: l3basics 2015/11/22 v6315 L3 Basic definitions
+L3 Module: l3expan 2015/09/10 v5983 L3 Argument expansion
+L3 Module: l3tl 2016/03/26 v6465 L3 Token lists
+L3 Module: l3str 2016/03/24 v6441 L3 Strings
+L3 Module: l3seq 2015/08/05 v5777 L3 Sequences and stacks
+L3 Module: l3int 2016/03/24 v6441 L3 Integers
+\c_max_int=\count388
+\l_tmpa_int=\count389
+\l_tmpb_int=\count390
+\g_tmpa_int=\count391
+\g_tmpb_int=\count392
+L3 Module: l3quark 2015/08/17 v5855 L3 Quarks
+L3 Module: l3prg 2015/11/01 v6216 L3 Control structures
+\g__prg_map_int=\count393
+L3 Module: l3clist 2015/09/02 v5901 L3 Comma separated lists
+L3 Module: l3token 2016/04/03 v6470 L3 Experimental token manipulation
+L3 Module: l3prop 2016/01/05 v6366 L3 Property lists
+L3 Module: l3msg 2016/03/26 v6464 L3 Messages
+L3 Module: l3file 2016/03/25 v6458 L3 File and I/O operations
+\l_iow_line_count_int=\count394
+\l__iow_target_count_int=\count395
+\l__iow_current_line_int=\count396
+\l__iow_current_word_int=\count397
+\l__iow_current_indentation_int=\count398
+L3 Module: l3skip 2016/01/05 v6366 L3 Dimensions and skips
+\c_zero_dim=\dimen266
+\c_max_dim=\dimen267
+\l_tmpa_dim=\dimen268
+\l_tmpb_dim=\dimen269
+\g_tmpa_dim=\dimen270
+\g_tmpb_dim=\dimen271
+\c_zero_skip=\skip74
+\c_max_skip=\skip75
+\l_tmpa_skip=\skip76
+\l_tmpb_skip=\skip77
+\g_tmpa_skip=\skip78
+\g_tmpb_skip=\skip79
+\c_zero_muskip=\muskip12
+\c_max_muskip=\muskip13
+\l_tmpa_muskip=\muskip14
+\l_tmpb_muskip=\muskip15
+\g_tmpa_muskip=\muskip16
+\g_tmpb_muskip=\muskip17
+L3 Module: l3keys 2015/11/17 v6284 L3 Key-value interfaces
+\g__keyval_level_int=\count399
+\l_keys_choice_int=\count400
+L3 Module: l3fp 2016/03/26 v6465 L3 Floating points
+\c__fp_leading_shift_int=\count401
+\c__fp_middle_shift_int=\count402
+\c__fp_trailing_shift_int=\count403
+\c__fp_big_leading_shift_int=\count404
+\c__fp_big_middle_shift_int=\count405
+\c__fp_big_trailing_shift_int=\count406
+\c__fp_Bigg_leading_shift_int=\count407
+\c__fp_Bigg_middle_shift_int=\count408
+\c__fp_Bigg_trailing_shift_int=\count409
+L3 Module: l3box 2015/08/09 v5822 L3 Experimental boxes
+\c_empty_box=\box58
+\l_tmpa_box=\box59
+\l_tmpb_box=\box60
+\g_tmpa_box=\box61
+\g_tmpb_box=\box62
+L3 Module: l3coffins 2016/05/17 v6508 L3 Coffin code layer
+\l__coffin_internal_box=\box63
+\l__coffin_internal_dim=\dimen272
+\l__coffin_offset_x_dim=\dimen273
+\l__coffin_offset_y_dim=\dimen274
+\l__coffin_x_dim=\dimen275
+\l__coffin_y_dim=\dimen276
+\l__coffin_x_prime_dim=\dimen277
+\l__coffin_y_prime_dim=\dimen278
+\c_empty_coffin=\box64
+\l__coffin_aligned_coffin=\box65
+\l__coffin_aligned_internal_coffin=\box66
+\l_tmpa_coffin=\box67
+\l_tmpb_coffin=\box68
+\l__coffin_display_coffin=\box69
+\l__coffin_display_coord_coffin=\box70
+\l__coffin_display_pole_coffin=\box71
+\l__coffin_display_offset_dim=\dimen279
+\l__coffin_display_x_dim=\dimen280
+\l__coffin_display_y_dim=\dimen281
+L3 Module: l3color 2014/08/23 v5354 L3 Experimental color support
+L3 Module: l3sys 2015/09/25 v6087 L3 Experimental system/runtime functions
+L3 Module: l3candidates 2016/05/13 v6484 L3 Experimental additions to l3kernel
+\l__box_top_dim=\dimen282
+\l__box_bottom_dim=\dimen283
+\l__box_left_dim=\dimen284
+\l__box_right_dim=\dimen285
+\l__box_top_new_dim=\dimen286
+\l__box_bottom_new_dim=\dimen287
+\l__box_left_new_dim=\dimen288
+\l__box_right_new_dim=\dimen289
+\l__box_internal_box=\box72
+\l__coffin_bounding_shift_dim=\dimen290
+\l__coffin_left_corner_dim=\dimen291
+\l__coffin_right_corner_dim=\dimen292
+\l__coffin_bottom_corner_dim=\dimen293
+\l__coffin_top_corner_dim=\dimen294
+\l__coffin_scaled_total_height_dim=\dimen295
+\l__coffin_scaled_width_dim=\dimen296
+L3 Module: l3luatex 2016/03/26 v6465 L3 Experimental LuaTeX-specific functions
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
+File: l3pdfmode.def 2016/03/26 v6465 L3 Experimental driver: PDF mode
+\l__driver_color_stack_int=\count410
+\l__driver_tmp_box=\box73
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+Package: l3keys2e 2016/05/18 v6512 LaTeX2e option processing using LaTeX3 keys
+)
+Package: pdfbase 2016/03/22 v0.8 driver independent access to low-level PDF fea
+tures
+\g_pbs_oc_int=\count411
+) (/usr/local/texlive/2016/texmf-dist/tex/latex/ocgx2/ocgbase.sty
+Package: ocgbase 2016/03/11 v0.6 support package for ocgx2.sty
+)
+(/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count412
+\scratchdimen=\dimen297
+\scratchbox=\box74
+\nofMPsegments=\count413
+\nofMParguments=\count414
+\everyMPshowfont=\toks51
+\MPscratchCnt=\count415
+\MPscratchDim=\dimen298
+\MPnumerator=\count416
+\makeMPintoPDFobject=\count417
+\everyMPtoPDFconversion=\toks52
+)
+\@anim@box=\box75
+\@anim@measbox=\box76
+\@anim@tmpdima=\dimen299
+\@anim@tmpdimb=\dimen300
+\@anim@num=\count418
+\@anim@curframe=\count419
+\@anim@curframe@zb=\count420
+\@anim@resizeflags=\count421
+\@anim@skipfram=\count422
+\@anim@mulframecnt=\count423
+\@anim@@tmlnfile=\read3
+\@anim@tmpcnt=\count424
+\c@@anim@ltxcnt=\count425
+\@anim@curlayer=\count426
+\@anim@lineno=\count427
+\@anim@curfield=\count428
+\@anim@@resizeflags=\count429
+) (/usr/local/texlive/2016/texmf-dist/tex/latex/cancel/cancel.sty
+Package: cancel 2013/04/12 v2.2 Cancel math terms
+)
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2016/05/14 v3.4 biblatex localization (PK/JW/AB)
+)
+
+Package biblatex Warning: Patching footnotes failed.
+(biblatex)                Footnote detection will not work.
+
+\@quotelevel=\count430
+\@quotereset=\count431
+(./applied_ode_modelling.aux)
+\openout1 = `applied_ode_modelling.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: custom
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: includehead includefoot 
+* h-part:(L,W,R)=(59.22636pt, 290.74263pt, 14.22636pt)
+* v-part:(T,H,B)=(0.0pt, 273.14662pt, 0.0pt)
+* \paperwidth=364.19536pt
+* \paperheight=273.14662pt
+* \textwidth=290.74263pt
+* \textheight=244.6939pt
+* \oddsidemargin=-13.04362pt
+* \evensidemargin=-13.04362pt
+* \topmargin=-72.26999pt
+* \headheight=14.22636pt
+* \headsep=0.0pt
+* \topskip=11.0pt
+* \footskip=14.22636pt
+* \marginparwidth=4.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+ABD: EveryShipout initializing macros
+\AtBeginShipoutBox=\box77
+Package hyperref Info: Link coloring OFF on input line 40.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count432
+)
+LaTeX Info: Redefining \ref on input line 40.
+LaTeX Info: Redefining \pageref on input line 40.
+LaTeX Info: Redefining \nameref on input line 40.
+
+(./applied_ode_modelling.out) (./applied_ode_modelling.out)
+\@outlinefile=\write7
+\openout7 = `applied_ode_modelling.out'.
+
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 40.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 40.
+\symnumbers=\mathgroup6
+\sympureletters=\mathgroup7
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 40.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 40.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 40.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 40.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 40.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 40.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 40.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 40.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 40.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 40.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 40.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 40.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 40.
+LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
+(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 40.
+LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
+(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 40.
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/cmr/bx/n on input line 40.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/bx/n on input line 40.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 40.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 40.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/bx/n on input line 40.
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 40.
+LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
+(Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 4
+0.
+LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
+(Font)                  OT1/cmss/bx/it --> OT1/mathkerncmss/m/sl on input line 
+40.
+LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
+(Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on inp
+ut line 40.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/translator/dicts/translato
+r-basic-dictionary/translator-basic-dictionary-English.dict
+Dictionary: translator-basic-dictionary, Language: English 
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/translator/dicts/translato
+r-bibliography-dictionary/translator-bibliography-dictionary-English.dict
+Dictionary: translator-bibliography-dictionary, Language: English 
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/translator/dicts/translato
+r-environment-dictionary/translator-environment-dictionary-English.dict
+Dictionary: translator-environment-dictionary, Language: English 
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/translator/dicts/translato
+r-months-dictionary/translator-months-dictionary-English.dict
+Dictionary: translator-months-dictionary, Language: English 
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/translator/dicts/translato
+r-numbers-dictionary/translator-numbers-dictionary-English.dict
+Dictionary: translator-numbers-dictionary, Language: English 
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/translator/dicts/translato
+r-theorem-dictionary/translator-theorem-dictionary-English.dict
+Dictionary: translator-theorem-dictionary, Language: English 
+)
+LaTeX Info: Redefining \includegraphics on input line 40.
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+\openout6 = `applied_ode_modelling.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'applied_ode_modelling.bbl' not found.
+
+No file applied_ode_modelling.bbl.
+Package biblatex Info: Reference section=0 on input line 40.
+Package biblatex Info: Reference segment=0 on input line 40.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+(./applied_ode_modelling.nav)
+LaTeX Font Info:    Try loading font information for U+msa on input line 44.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 44.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input 
+line 44.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
+File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
+thkerncmss.
+)
+
+LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
+(Font)              size <5> substituted on input line 44.
+
+[1
+
+{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+[2
+
+] [3
+
+] (./applied_ode_modelling.toc) [4
+
+] [5
+
+] [6
+
+] (./applied_ode_modelling.toc) [7
+
+] [8
+
+] [9
+
+]
+<./Figures/lec4_metropolisDefinition1.pdf, id=120, 602.25pt x 376.40625pt>
+File: ./Figures/lec4_metropolisDefinition1.pdf Graphic file (type pdf)
+
+<use ./Figures/lec4_metropolisDefinition1.pdf>
+Package pdftex.def Info: ./Figures/lec4_metropolisDefinition1.pdf used on input
+ line 160.
+(pdftex.def)             Requested size: 290.74263pt x 181.71825pt.
+
+Overfull \vbox (2.6383pt too high) detected at line 160
+ []
+
+[10
+
+ <./Figures/lec4_metropolisDefinition1.pdf>]
+<./Figures/lec4_metropolisDefinition2.pdf, id=147, 602.25pt x 376.40625pt>
+File: ./Figures/lec4_metropolisDefinition2.pdf Graphic file (type pdf)
+
+<use ./Figures/lec4_metropolisDefinition2.pdf>
+Package pdftex.def Info: ./Figures/lec4_metropolisDefinition2.pdf used on input
+ line 170.
+(pdftex.def)             Requested size: 290.74263pt x 181.71825pt.
+
+Overfull \vbox (2.6383pt too high) detected at line 170
+ []
+
+[11
+
+ <./Figures/lec4_metropolisDefinition2.pdf>]
+<./Figures/lec4_metropolisDefinition3.pdf, id=179, 602.25pt x 376.40625pt>
+File: ./Figures/lec4_metropolisDefinition3.pdf Graphic file (type pdf)
+
+<use ./Figures/lec4_metropolisDefinition3.pdf>
+Package pdftex.def Info: ./Figures/lec4_metropolisDefinition3.pdf used on input
+ line 180.
+(pdftex.def)             Requested size: 290.74263pt x 181.71825pt.
+
+Overfull \vbox (2.6383pt too high) detected at line 180
+ []
+
+[12
+
+ <./Figures/lec4_metropolisDefinition3.pdf>]
+<./Figures/lec4_metropolisDefinition4.pdf, id=210, 602.25pt x 376.40625pt>
+File: ./Figures/lec4_metropolisDefinition4.pdf Graphic file (type pdf)
+
+<use ./Figures/lec4_metropolisDefinition4.pdf>
+Package pdftex.def Info: ./Figures/lec4_metropolisDefinition4.pdf used on input
+ line 190.
+(pdftex.def)             Requested size: 290.74263pt x 181.71825pt.
+
+Overfull \vbox (15.47789pt too high) detected at line 190
+ []
+
+[13
+
+ <./Figures/lec4_metropolisDefinition4.pdf>]
+File: ./Figures/lec4_metropolisDefinition4.pdf Graphic file (type pdf)
+
+<use ./Figures/lec4_metropolisDefinition4.pdf>
+Package pdftex.def Info: ./Figures/lec4_metropolisDefinition4.pdf used on input
+ line 200.
+(pdftex.def)             Requested size: 290.74263pt x 181.71825pt.
+
+Overfull \vbox (16.23831pt too high) detected at line 200
+ []
+
+[14
+
+]
+<./Figures/lec4_metropolisDefinition5.pdf, id=247, 602.25pt x 376.40625pt>
+File: ./Figures/lec4_metropolisDefinition5.pdf Graphic file (type pdf)
+
+<use ./Figures/lec4_metropolisDefinition5.pdf>
+Package pdftex.def Info: ./Figures/lec4_metropolisDefinition5.pdf used on input
+ line 210.
+(pdftex.def)             Requested size: 290.74263pt x 181.71825pt.
+
+Overfull \vbox (2.6383pt too high) detected at line 210
+ []
+
+[15
+
+ <./Figures/lec4_metropolisDefinition5.pdf>]
+<./Figures/lec4_metropolisDefinition6.pdf, id=278, 602.25pt x 376.40625pt>
+File: ./Figures/lec4_metropolisDefinition6.pdf Graphic file (type pdf)
+
+<use ./Figures/lec4_metropolisDefinition6.pdf>
+Package pdftex.def Info: ./Figures/lec4_metropolisDefinition6.pdf used on input
+ line 220.
+(pdftex.def)             Requested size: 290.74263pt x 181.71825pt.
+
+Overfull \vbox (2.6383pt too high) detected at line 220
+ []
+
+[16
+
+ <./Figures/lec4_metropolisDefinition6.pdf>]
+<./Figures/lec4_metropolisDefinition7.pdf, id=309, 602.25pt x 376.40625pt>
+File: ./Figures/lec4_metropolisDefinition7.pdf Graphic file (type pdf)
+
+<use ./Figures/lec4_metropolisDefinition7.pdf>
+Package pdftex.def Info: ./Figures/lec4_metropolisDefinition7.pdf used on input
+ line 230.
+(pdftex.def)             Requested size: 290.74263pt x 181.71825pt.
+
+Overfull \vbox (15.47789pt too high) detected at line 230
+ []
+
+[17
+
+ <./Figures/lec4_metropolisDefinition7.pdf>]
+<./Figures/lec4_metropolisDefinition8.pdf, id=341, 602.25pt x 376.40625pt>
+File: ./Figures/lec4_metropolisDefinition8.pdf Graphic file (type pdf)
+
+<use ./Figures/lec4_metropolisDefinition8.pdf>
+Package pdftex.def Info: ./Figures/lec4_metropolisDefinition8.pdf used on input
+ line 240.
+(pdftex.def)             Requested size: 290.74263pt x 181.71825pt.
+
+Overfull \vbox (14.10915pt too high) detected at line 240
+ []
+
+[18
+
+ <./Figures/lec4_metropolisDefinition8.pdf>]
+<./Figures/lec4_metropolisDefinition9.pdf, id=372, 602.25pt x 376.40625pt>
+File: ./Figures/lec4_metropolisDefinition9.pdf Graphic file (type pdf)
+
+<use ./Figures/lec4_metropolisDefinition9.pdf>
+Package pdftex.def Info: ./Figures/lec4_metropolisDefinition9.pdf used on input
+ line 250.
+(pdftex.def)             Requested size: 290.74263pt x 181.71825pt.
+
+Overfull \vbox (14.10915pt too high) detected at line 250
+ []
+
+[19
+
+ <./Figures/lec4_metropolisDefinition9.pdf>]
+<./Figures/lec4_metropolisDefinition10.pdf, id=408, 602.25pt x 376.40625pt>
+File: ./Figures/lec4_metropolisDefinition10.pdf Graphic file (type pdf)
+
+<use ./Figures/lec4_metropolisDefinition10.pdf>
+Package pdftex.def Info: ./Figures/lec4_metropolisDefinition10.pdf used on inpu
+t line 260.
+(pdftex.def)             Requested size: 290.74263pt x 181.71825pt.
+
+Overfull \vbox (2.6383pt too high) detected at line 260
+ []
+
+[20
+
+ <./Figures/lec4_metropolisDefinition10.pdf>]
+<./Figures/lec4_metropolisDefinition11.pdf, id=443, 602.25pt x 376.40625pt>
+File: ./Figures/lec4_metropolisDefinition11.pdf Graphic file (type pdf)
+
+<use ./Figures/lec4_metropolisDefinition11.pdf>
+Package pdftex.def Info: ./Figures/lec4_metropolisDefinition11.pdf used on inpu
+t line 270.
+(pdftex.def)             Requested size: 290.74263pt x 181.71825pt.
+
+Overfull \vbox (0.50914pt too high) detected at line 270
+ []
+
+[21
+
+ <./Figures/lec4_metropolisDefinition11.pdf>]
+<./Figures/lec4_metropolisDefinition12.pdf, id=479, 602.25pt x 376.40625pt>
+File: ./Figures/lec4_metropolisDefinition12.pdf Graphic file (type pdf)
+
+<use ./Figures/lec4_metropolisDefinition12.pdf>
+Package pdftex.def Info: ./Figures/lec4_metropolisDefinition12.pdf used on inpu
+t line 280.
+(pdftex.def)             Requested size: 290.74263pt x 181.71825pt.
+
+Overfull \vbox (0.93726pt too high) detected at line 280
+ []
+
+[22
+
+ <./Figures/lec4_metropolisDefinition12.pdf>]
+<./Figures/lec4_metropolisDefinition13.pdf, id=514, 602.25pt x 376.40625pt>
+File: ./Figures/lec4_metropolisDefinition13.pdf Graphic file (type pdf)
+
+<use ./Figures/lec4_metropolisDefinition13.pdf>
+Package pdftex.def Info: ./Figures/lec4_metropolisDefinition13.pdf used on inpu
+t line 290.
+(pdftex.def)             Requested size: 290.74263pt x 181.71825pt.
+
+Overfull \vbox (0.93726pt too high) detected at line 290
+ []
+
+[23
+
+ <./Figures/lec4_metropolisDefinition13.pdf>]
+<./Figures/lec4_metropolisDefinitionFinal.pdf, id=553, 602.25pt x 376.40625pt>
+File: ./Figures/lec4_metropolisDefinitionFinal.pdf Graphic file (type pdf)
+
+<use ./Figures/lec4_metropolisDefinitionFinal.pdf>
+Package pdftex.def Info: ./Figures/lec4_metropolisDefinitionFinal.pdf used on i
+nput line 300.
+(pdftex.def)             Requested size: 290.74263pt x 181.71825pt.
+
+Overfull \vbox (2.6383pt too high) detected at line 300
+ []
+
+[24
+
+ <./Figures/lec4_metropolisDefinitionFinal.pdf>] [25
+
+]
+<./Figures/lec4_goldMiningActual.png, id=627, 602.18977pt x 477.52403pt>
+File: ./Figures/lec4_goldMiningActual.png Graphic file (type png)
+
+<use ./Figures/lec4_goldMiningActual.png>
+Package pdftex.def Info: ./Figures/lec4_goldMiningActual.png used on input line
+ 325.
+(pdftex.def)             Requested size: 232.59499pt x 184.44116pt.
+
+Overfull \vbox (16.83206pt too high) detected at line 325
+ []
+
+[26
+
+ <./Figures/lec4_goldMiningActual.png (PNG copy)>] <./Figures/lec4_goldMineAcce
+pt1.pdf> <./Figures/lec4_goldMineAccept2.pdf> <./Figures/lec4_goldMineAccept3.p
+df> <./Figures/lec4_goldMineAccept4.pdf> <./Figures/lec4_goldMineAccept5.pdf> <
+./Figures/lec4_goldMineAccept6.pdf> <./Figures/lec4_goldMineAccept7.pdf> <./Fig
+ures/lec4_goldMineAccept8.pdf> <./Figures/lec4_goldMineAccept9.pdf> <./Figures/
+lec4_goldMineAccept10.pdf> <./Figures/lec4_goldMineAccept11.pdf> <./Figures/lec
+4_goldMineAccept12.pdf> <./Figures/lec4_goldMineAccept13.pdf> <./Figures/lec4_g
+oldMineAccept14.pdf> <./Figures/lec4_goldMineAccept15.pdf> <./Figures/lec4_gold
+MineAccept16.pdf> <./Figures/lec4_goldMineAccept17.pdf> <./Figures/lec4_goldMin
+eAccept18.pdf> <./Figures/lec4_goldMineAccept19.pdf> <./Figures/lec4_goldMineAc
+cept20.pdf> <./Figures/lec4_goldMineAccept21.pdf> <./Figures/lec4_goldMineAccep
+t22.pdf> <./Figures/lec4_goldMineAccept23.pdf> <./Figures/lec4_goldMineAccept24
+.pdf> <./Figures/lec4_goldMineAccept25.pdf> <./Figures/lec4_goldMineAccept26.pd
+f> <./Figures/lec4_goldMineAccept27.pdf> <./Figures/lec4_goldMineAccept28.pdf> 
+<./Figures/lec4_goldMineAccept29.pdf> <./Figures/lec4_goldMineAccept30.pdf> <./
+Figures/lec4_goldMineAccept31.pdf> <./Figures/lec4_goldMineAccept32.pdf> <./Fig
+ures/lec4_goldMineAccept33.pdf> <./Figures/lec4_goldMineAccept34.pdf> <./Figure
+s/lec4_goldMineAccept35.pdf> <./Figures/lec4_goldMineAccept36.pdf> <./Figures/l
+ec4_goldMineAccept37.pdf> <./Figures/lec4_goldMineAccept38.pdf> <./Figures/lec4
+_goldMineAccept39.pdf> <./Figures/lec4_goldMineAccept40.pdf> <./Figures/lec4_go
+ldMineAccept41.pdf> <./Figures/lec4_goldMineAccept42.pdf> <./Figures/lec4_goldM
+ineAccept43.pdf> <./Figures/lec4_goldMineAccept44.pdf> <./Figures/lec4_goldMine
+Accept45.pdf> <./Figures/lec4_goldMineAccept46.pdf> <./Figures/lec4_goldMineAcc
+ept47.pdf> <./Figures/lec4_goldMineAccept48.pdf> <./Figures/lec4_goldMineAccept
+49.pdf> <./Figures/lec4_goldMineAccept50.pdf> <./Figures/lec4_goldMineAccept51.
+pdf> <./Figures/lec4_goldMineAccept52.pdf> <./Figures/lec4_goldMineAccept53.pdf
+> <./Figures/lec4_goldMineAccept54.pdf> <./Figures/lec4_goldMineAccept55.pdf> <
+./Figures/lec4_goldMineAccept56.pdf> <./Figures/lec4_goldMineAccept57.pdf> <./F
+igures/lec4_goldMineAccept58.pdf> <./Figures/lec4_goldMineAccept59.pdf> <./Figu
+res/lec4_goldMineAccept60.pdf> <./Figures/lec4_goldMineAccept61.pdf> <./Figures
+/lec4_goldMineAccept62.pdf> <./Figures/lec4_goldMineAccept63.pdf> <./Figures/le
+c4_goldMineAccept64.pdf> <./Figures/lec4_goldMineAccept65.pdf> <./Figures/lec4_
+goldMineAccept66.pdf> <./Figures/lec4_goldMineAccept67.pdf> <./Figures/lec4_gol
+dMineAccept68.pdf> <./Figures/lec4_goldMineAccept69.pdf> <./Figures/lec4_goldMi
+neAccept70.pdf> <./Figures/lec4_goldMineAccept71.pdf> <./Figures/lec4_goldMineA
+ccept72.pdf> <./Figures/lec4_goldMineAccept73.pdf> <./Figures/lec4_goldMineAcce
+pt74.pdf> <./Figures/lec4_goldMineAccept75.pdf> <./Figures/lec4_goldMineAccept7
+6.pdf> <./Figures/lec4_goldMineAccept77.pdf> <./Figures/lec4_goldMineAccept78.p
+df> <./Figures/lec4_goldMineAccept79.pdf> <./Figures/lec4_goldMineAccept80.pdf>
+ <./Figures/lec4_goldMineAccept81.pdf> <./Figures/lec4_goldMineAccept82.pdf> <.
+/Figures/lec4_goldMineAccept83.pdf> <./Figures/lec4_goldMineAccept84.pdf> <./Fi
+gures/lec4_goldMineAccept85.pdf> <./Figures/lec4_goldMineAccept86.pdf> <./Figur
+es/lec4_goldMineAccept87.pdf> <./Figures/lec4_goldMineAccept88.pdf> <./Figures/
+lec4_goldMineAccept89.pdf> <./Figures/lec4_goldMineAccept90.pdf> <./Figures/lec
+4_goldMineAccept91.pdf> <./Figures/lec4_goldMineAccept92.pdf> <./Figures/lec4_g
+oldMineAccept93.pdf> <./Figures/lec4_goldMineAccept94.pdf> <./Figures/lec4_gold
+MineAccept95.pdf> <./Figures/lec4_goldMineAccept96.pdf> <./Figures/lec4_goldMin
+eAccept97.pdf> <./Figures/lec4_goldMineAccept98.pdf> <./Figures/lec4_goldMineAc
+cept99.pdf> <./Figures/lec4_goldMineAccept100.pdf> <./Figures/lec4_goldMineAcce
+pt101.pdf>
+Overfull \vbox (9.06853pt too high) detected at line 333
+ []
+
+[27
+
+] <./Figures/lec4_goldMining3D1.png (PNG copy)> <./Figures/lec4_goldMining3D2.p
+ng (PNG copy)> <./Figures/lec4_goldMining3D3.png (PNG copy)> <./Figures/lec4_go
+ldMining3D4.png (PNG copy)> <./Figures/lec4_goldMining3D5.png (PNG copy)> <./Fi
+gures/lec4_goldMining3D6.png (PNG copy)> <./Figures/lec4_goldMining3D7.png (PNG
+ copy)> <./Figures/lec4_goldMining3D8.png (PNG copy)> <./Figures/lec4_goldMinin
+g3D9.png (PNG copy)> <./Figures/lec4_goldMining3D10.png (PNG copy)> <./Figures/
+lec4_goldMining3D11.png (PNG copy)> <./Figures/lec4_goldMining3D12.png (PNG cop
+y)> <./Figures/lec4_goldMining3D13.png (PNG copy)> <./Figures/lec4_goldMining3D
+14.png (PNG copy)> <./Figures/lec4_goldMining3D15.png (PNG copy)> <./Figures/le
+c4_goldMining3D16.png (PNG copy)> <./Figures/lec4_goldMining3D17.png (PNG copy)
+> <./Figures/lec4_goldMining3D18.png (PNG copy)> <./Figures/lec4_goldMining3D19
+.png (PNG copy)> <./Figures/lec4_goldMining3D20.png (PNG copy)> <./Figures/lec4
+_goldMining3D21.png (PNG copy)> <./Figures/lec4_goldMining3D22.png (PNG copy)> 
+<./Figures/lec4_goldMining3D23.png (PNG copy)> <./Figures/lec4_goldMining3D24.p
+ng (PNG copy)> <./Figures/lec4_goldMining3D25.png (PNG copy)> <./Figures/lec4_g
+oldMining3D26.png (PNG copy)> <./Figures/lec4_goldMining3D27.png (PNG copy)> <.
+/Figures/lec4_goldMining3D28.png (PNG copy)> <./Figures/lec4_goldMining3D29.png
+ (PNG copy)> <./Figures/lec4_goldMining3D30.png (PNG copy)> <./Figures/lec4_gol
+dMining3D31.png (PNG copy)> <./Figures/lec4_goldMining3D32.png (PNG copy)> <./F
+igures/lec4_goldMining3D33.png (PNG copy)> <./Figures/lec4_goldMining3D34.png (
+PNG copy)> <./Figures/lec4_goldMining3D35.png (PNG copy)> <./Figures/lec4_goldM
+ining3D36.png (PNG copy)> <./Figures/lec4_goldMining3D37.png (PNG copy)> <./Fig
+ures/lec4_goldMining3D38.png (PNG copy)> <./Figures/lec4_goldMining3D39.png (PN
+G copy)> <./Figures/lec4_goldMining3D40.png (PNG copy)> <./Figures/lec4_goldMin
+ing3D41.png (PNG copy)> <./Figures/lec4_goldMining3D42.png (PNG copy)> <./Figur
+es/lec4_goldMining3D43.png (PNG copy)> <./Figures/lec4_goldMining3D44.png (PNG 
+copy)> <./Figures/lec4_goldMining3D45.png (PNG copy)> <./Figures/lec4_goldMinin
+g3D46.png (PNG copy)> <./Figures/lec4_goldMining3D47.png (PNG copy)> <./Figures
+/lec4_goldMining3D48.png (PNG copy)> [28
+
+] [29
+
+]
+<./Figures/lec4_normalProposal.pdf, id=2255, 361.35pt x 233.87375pt>
+File: ./Figures/lec4_normalProposal.pdf Graphic file (type pdf)
+
+<use ./Figures/lec4_normalProposal.pdf>
+Package pdftex.def Info: ./Figures/lec4_normalProposal.pdf used on input line 3
+71.
+(pdftex.def)             Requested size: 232.59499pt x 150.54227pt.
+
+Overfull \vbox (17.87067pt too high) detected at line 371
+ []
+
+[30
+
+ <./Figures/lec4_normalProposal.pdf>]
+<./Figures/lec4_stepSizeKernel.pdf, id=2282, 361.35pt x 361.35pt>
+File: ./Figures/lec4_stepSizeKernel.pdf Graphic file (type pdf)
+
+<use ./Figures/lec4_stepSizeKernel.pdf>
+Package pdftex.def Info: ./Figures/lec4_stepSizeKernel.pdf used on input line 3
+82.
+(pdftex.def)             Requested size: 174.44734pt x 174.44952pt.
+
+Overfull \vbox (6.84042pt too high) detected at line 382
+ []
+
+[31
+
+ <./Figures/lec4_stepSizeKernel.pdf>]
+<./Figures/lec4_stepSizeStart1.pdf, id=2297, 602.25pt x 385.44pt>
+File: ./Figures/lec4_stepSizeStart1.pdf Graphic file (type pdf)
+
+<use ./Figures/lec4_stepSizeStart1.pdf>
+Package pdftex.def Info: ./Figures/lec4_stepSizeStart1.pdf used on input line 3
+92.
+(pdftex.def)             Requested size: 232.59499pt x 148.86241pt.
+ [32
+
+ <./Figures/lec4_stepSizeStart1.pdf>] <./Figures/lec4_stepSizeStart2.pdf, id=23
+18, 602.25pt x 385.44pt>
+File: ./Figures/lec4_stepSizeStart2.pdf Graphic file (type pdf)
+
+<use ./Figures/lec4_stepSizeStart2.pdf>
+Package pdftex.def Info: ./Figures/lec4_stepSizeStart2.pdf used on input line 4
+02.
+(pdftex.def)             Requested size: 232.59499pt x 148.86241pt.
+ [33
+
+ <./Figures/lec4_stepSizeStart2.pdf>] <./Figures/lec4_step_small1.pdf> <./Figur
+es/lec4_step_small2.pdf> <./Figures/lec4_step_small3.pdf> <./Figures/lec4_step_
+small4.pdf> <./Figures/lec4_step_small5.pdf> <./Figures/lec4_step_small6.pdf> <
+./Figures/lec4_step_small7.pdf> <./Figures/lec4_step_small8.pdf> <./Figures/lec
+4_step_small9.pdf> <./Figures/lec4_step_small10.pdf> <./Figures/lec4_step_small
+11.pdf> <./Figures/lec4_step_small12.pdf> <./Figures/lec4_step_small13.pdf> <./
+Figures/lec4_step_small14.pdf> <./Figures/lec4_step_small15.pdf> <./Figures/lec
+4_step_small16.pdf> <./Figures/lec4_step_small17.pdf> <./Figures/lec4_step_smal
+l18.pdf> <./Figures/lec4_step_small19.pdf> <./Figures/lec4_step_small20.pdf>
+Overfull \vbox (6.70573pt too high) detected at line 411
+ []
+
+[34
+
+] <./Figures/lec4_step_large1.pdf> <./Figures/lec4_step_large2.pdf> <./Figures/
+lec4_step_large3.pdf> <./Figures/lec4_step_large4.pdf> <./Figures/lec4_step_lar
+ge5.pdf> <./Figures/lec4_step_large6.pdf> <./Figures/lec4_step_large7.pdf> <./F
+igures/lec4_step_large8.pdf> <./Figures/lec4_step_large9.pdf> <./Figures/lec4_s
+tep_large10.pdf> <./Figures/lec4_step_large11.pdf> <./Figures/lec4_step_large12
+.pdf> <./Figures/lec4_step_large13.pdf> <./Figures/lec4_step_large14.pdf> <./Fi
+gures/lec4_step_large15.pdf> <./Figures/lec4_step_large16.pdf> <./Figures/lec4_
+step_large17.pdf> <./Figures/lec4_step_large18.pdf> <./Figures/lec4_step_large1
+9.pdf> <./Figures/lec4_step_large20.pdf>
+Overfull \vbox (6.70573pt too high) detected at line 420
+ []
+
+[35
+
+] <./Figures/lec4_step_correct1.pdf> <./Figures/lec4_step_correct2.pdf> <./Figu
+res/lec4_step_correct3.pdf> <./Figures/lec4_step_correct4.pdf> <./Figures/lec4_
+step_correct5.pdf> <./Figures/lec4_step_correct6.pdf> <./Figures/lec4_step_corr
+ect7.pdf> <./Figures/lec4_step_correct8.pdf> <./Figures/lec4_step_correct9.pdf>
+ <./Figures/lec4_step_correct10.pdf> <./Figures/lec4_step_correct11.pdf> <./Fig
+ures/lec4_step_correct12.pdf> <./Figures/lec4_step_correct13.pdf> <./Figures/le
+c4_step_correct14.pdf> <./Figures/lec4_step_correct15.pdf> <./Figures/lec4_step
+_correct16.pdf> <./Figures/lec4_step_correct17.pdf> <./Figures/lec4_step_correc
+t18.pdf> <./Figures/lec4_step_correct19.pdf> <./Figures/lec4_step_correct20.pdf
+>
+Overfull \vbox (6.70573pt too high) detected at line 429
+ []
+
+[36
+
+] [37
+
+] (./applied_ode_modelling.toc) [38
+
+] [39
+
+] [40
+
+]
+<./Figures/catch-22-quote.jpg, id=3998, 949.5475pt x 634.37pt>
+File: ./Figures/catch-22-quote.jpg Graphic file (type jpg)
+
+<use ./Figures/catch-22-quote.jpg>
+Package pdftex.def Info: ./Figures/catch-22-quote.jpg used on input line 486.
+(pdftex.def)             Requested size: 232.59499pt x 155.38812pt.
+
+Overfull \vbox (22.1082pt too high) detected at line 486
+ []
+
+[41
+
+ <./Figures/catch-22-quote.jpg>]
+<./Figures/morse.pdf, id=4005, 597.51233pt x 276.8483pt>
+File: ./Figures/morse.pdf Graphic file (type pdf)
+
+<use ./Figures/morse.pdf>
+Package pdftex.def Info: ./Figures/morse.pdf used on input line 510.
+(pdftex.def)             Requested size: 290.74263pt x 134.71059pt.
+
+Overfull \vbox (50.41508pt too high) detected at line 510
+ []
+
+[42
+
+ <./Figures/morse.pdf>]
+<./Figures/thylacine.jpg, id=4053, 946.53625pt x 533.995pt>
+File: ./Figures/thylacine.jpg Graphic file (type jpg)
+
+<use ./Figures/thylacine.jpg>
+Package pdftex.def Info: ./Figures/thylacine.jpg used on input line 527.
+(pdftex.def)             Requested size: 290.74263pt x 164.0212pt.
+
+Overfull \vbox (30.74127pt too high) detected at line 527
+ []
+
+[43
+
+ <./Figures/thylacine.jpg>] [44
+
+] [45
+
+]
+<./Figures/lec4_beeAntenna.pdf, id=4070, 216.19707pt x 270.47136pt>
+File: ./Figures/lec4_beeAntenna.pdf Graphic file (type pdf)
+
+<use ./Figures/lec4_beeAntenna.pdf>
+Package pdftex.def Info: ./Figures/lec4_beeAntenna.pdf used on input line 559.
+(pdftex.def)             Requested size: 87.22366pt x 109.11932pt.
+
+Overfull \vbox (10.51025pt too high) detected at line 559
+ []
+
+[46
+
+ <./Figures/lec4_beeAntenna.pdf>] [47
+
+] <./Figures/lec4_beeSingleChaina1.png (PNG copy)> <./Figures/lec4_beeSingleCha
+ina2.png (PNG copy)> <./Figures/lec4_beeSingleChaina3.png (PNG copy)> <./Figure
+s/lec4_beeSingleChaina4.png (PNG copy)> <./Figures/lec4_beeSingleChaina5.png (P
+NG copy)> <./Figures/lec4_beeSingleChaina6.png (PNG copy)> <./Figures/lec4_beeS
+ingleChaina7.png (PNG copy)> <./Figures/lec4_beeSingleChaina8.png (PNG copy)> <
+./Figures/lec4_beeSingleChaina9.png (PNG copy)> <./Figures/lec4_beeSingleChaina
+10.png (PNG copy)> <./Figures/lec4_beeSingleChaina11.png (PNG copy)> <./Figures
+/lec4_beeSingleChaina12.png (PNG copy)> <./Figures/lec4_beeSingleChaina13.png (
+PNG copy)> <./Figures/lec4_beeSingleChaina14.png (PNG copy)> <./Figures/lec4_be
+eSingleChaina15.png (PNG copy)> <./Figures/lec4_beeSingleChaina16.png (PNG copy
+)> <./Figures/lec4_beeSingleChaina17.png (PNG copy)> <./Figures/lec4_beeSingleC
+haina18.png (PNG copy)> <./Figures/lec4_beeSingleChaina19.png (PNG copy)> <./Fi
+gures/lec4_beeSingleChaina20.png (PNG copy)> <./Figures/lec4_beeSingleChaina21.
+png (PNG copy)> <./Figures/lec4_beeSingleChaina22.png (PNG copy)> <./Figures/le
+c4_beeSingleChaina23.png (PNG copy)> <./Figures/lec4_beeSingleChaina24.png (PNG
+ copy)> <./Figures/lec4_beeSingleChaina25.png (PNG copy)> <./Figures/lec4_beeSi
+ngleChaina26.png (PNG copy)> <./Figures/lec4_beeSingleChaina27.png (PNG copy)> 
+<./Figures/lec4_beeSingleChaina28.png (PNG copy)> <./Figures/lec4_beeSingleChai
+na29.png (PNG copy)> <./Figures/lec4_beeSingleChaina30.png (PNG copy)> <./Figur
+es/lec4_beeSingleChaina31.png (PNG copy)> <./Figures/lec4_beeSingleChaina32.png
+ (PNG copy)> <./Figures/lec4_beeSingleChaina33.png (PNG copy)> <./Figures/lec4_
+beeSingleChaina34.png (PNG copy)> <./Figures/lec4_beeSingleChaina35.png (PNG co
+py)> <./Figures/lec4_beeSingleChaina36.png (PNG copy)> <./Figures/lec4_beeSingl
+eChaina37.png (PNG copy)> <./Figures/lec4_beeSingleChaina38.png (PNG copy)> <./
+Figures/lec4_beeSingleChaina39.png (PNG copy)> <./Figures/lec4_beeSingleChaina4
+0.png (PNG copy)> <./Figures/lec4_beeSingleChaina41.png (PNG copy)> <./Figures/
+lec4_beeSingleChaina42.png (PNG copy)> <./Figures/lec4_beeSingleChaina43.png (P
+NG copy)> <./Figures/lec4_beeSingleChaina44.png (PNG copy)> <./Figures/lec4_bee
+SingleChaina45.png (PNG copy)> <./Figures/lec4_beeSingleChaina46.png (PNG copy)
+> <./Figures/lec4_beeSingleChaina47.png (PNG copy)> <./Figures/lec4_beeSingleCh
+aina48.png (PNG copy)> <./Figures/lec4_beeSingleChaina49.png (PNG copy)> <./Fig
+ures/lec4_beeSingleChaina50.png (PNG copy)> <./Figures/lec4_beeSingleChaina51.p
+ng (PNG copy)> <./Figures/lec4_beeSingleChaina52.png (PNG copy)> <./Figures/lec
+4_beeSingleChaina53.png (PNG copy)> <./Figures/lec4_beeSingleChaina54.png (PNG 
+copy)> <./Figures/lec4_beeSingleChaina55.png (PNG copy)> <./Figures/lec4_beeSin
+gleChaina56.png (PNG copy)> <./Figures/lec4_beeSingleChaina57.png (PNG copy)> <
+./Figures/lec4_beeSingleChaina58.png (PNG copy)> <./Figures/lec4_beeSingleChain
+a59.png (PNG copy)> <./Figures/lec4_beeSingleChaina60.png (PNG copy)> <./Figure
+s/lec4_beeSingleChaina61.png (PNG copy)> <./Figures/lec4_beeSingleChaina62.png 
+(PNG copy)> <./Figures/lec4_beeSingleChaina63.png (PNG copy)> <./Figures/lec4_b
+eeSingleChaina64.png (PNG copy)> <./Figures/lec4_beeSingleChaina65.png (PNG cop
+y)> <./Figures/lec4_beeSingleChaina66.png (PNG copy)> <./Figures/lec4_beeSingle
+Chaina67.png (PNG copy)> <./Figures/lec4_beeSingleChaina68.png (PNG copy)> <./F
+igures/lec4_beeSingleChaina69.png (PNG copy)> <./Figures/lec4_beeSingleChaina70
+.png (PNG copy)> <./Figures/lec4_beeSingleChaina71.png (PNG copy)> <./Figures/l
+ec4_beeSingleChaina72.png (PNG copy)> <./Figures/lec4_beeSingleChaina73.png (PN
+G copy)> <./Figures/lec4_beeSingleChaina74.png (PNG copy)> <./Figures/lec4_beeS
+ingleChaina75.png (PNG copy)> <./Figures/lec4_beeSingleChaina76.png (PNG copy)>
+ <./Figures/lec4_beeSingleChaina77.png (PNG copy)> <./Figures/lec4_beeSingleCha
+ina78.png (PNG copy)> <./Figures/lec4_beeSingleChaina79.png (PNG copy)> <./Figu
+res/lec4_beeSingleChaina80.png (PNG copy)> <./Figures/lec4_beeSingleChaina81.pn
+g (PNG copy)> <./Figures/lec4_beeSingleChaina82.png (PNG copy)> <./Figures/lec4
+_beeSingleChaina83.png (PNG copy)> <./Figures/lec4_beeSingleChaina84.png (PNG c
+opy)> <./Figures/lec4_beeSingleChaina85.png (PNG copy)> <./Figures/lec4_beeSing
+leChaina86.png (PNG copy)> <./Figures/lec4_beeSingleChaina87.png (PNG copy)> <.
+/Figures/lec4_beeSingleChaina88.png (PNG copy)> <./Figures/lec4_beeSingleChaina
+89.png (PNG copy)> <./Figures/lec4_beeSingleChaina90.png (PNG copy)> <./Figures
+/lec4_beeSingleChaina91.png (PNG copy)> <./Figures/lec4_beeSingleChaina92.png (
+PNG copy)> <./Figures/lec4_beeSingleChaina93.png (PNG copy)> <./Figures/lec4_be
+eSingleChaina94.png (PNG copy)> <./Figures/lec4_beeSingleChaina95.png (PNG copy
+)> <./Figures/lec4_beeSingleChaina96.png (PNG copy)> <./Figures/lec4_beeSingleC
+haina97.png (PNG copy)> <./Figures/lec4_beeSingleChaina98.png (PNG copy)> <./Fi
+gures/lec4_beeSingleChaina99.png (PNG copy)> <./Figures/lec4_beeSingleChaina100
+.png (PNG copy)> <./Figures/lec4_beeSingleChaina101.png (PNG copy)> [48
+
+] <./Figures/lec4_beeSingleChainb1.png (PNG copy)> <./Figures/lec4_beeSingleCha
+inb2.png (PNG copy)> <./Figures/lec4_beeSingleChainb3.png (PNG copy)> <./Figure
+s/lec4_beeSingleChainb4.png (PNG copy)> <./Figures/lec4_beeSingleChainb5.png (P
+NG copy)> <./Figures/lec4_beeSingleChainb6.png (PNG copy)> <./Figures/lec4_beeS
+ingleChainb7.png (PNG copy)> <./Figures/lec4_beeSingleChainb8.png (PNG copy)> <
+./Figures/lec4_beeSingleChainb9.png (PNG copy)> <./Figures/lec4_beeSingleChainb
+10.png (PNG copy)> <./Figures/lec4_beeSingleChainb11.png (PNG copy)> <./Figures
+/lec4_beeSingleChainb12.png (PNG copy)> <./Figures/lec4_beeSingleChainb13.png (
+PNG copy)> <./Figures/lec4_beeSingleChainb14.png (PNG copy)> <./Figures/lec4_be
+eSingleChainb15.png (PNG copy)> <./Figures/lec4_beeSingleChainb16.png (PNG copy
+)> <./Figures/lec4_beeSingleChainb17.png (PNG copy)> <./Figures/lec4_beeSingleC
+hainb18.png (PNG copy)> <./Figures/lec4_beeSingleChainb19.png (PNG copy)> <./Fi
+gures/lec4_beeSingleChainb20.png (PNG copy)> <./Figures/lec4_beeSingleChainb21.
+png (PNG copy)> <./Figures/lec4_beeSingleChainb22.png (PNG copy)> <./Figures/le
+c4_beeSingleChainb23.png (PNG copy)> <./Figures/lec4_beeSingleChainb24.png (PNG
+ copy)> <./Figures/lec4_beeSingleChainb25.png (PNG copy)> <./Figures/lec4_beeSi
+ngleChainb26.png (PNG copy)> <./Figures/lec4_beeSingleChainb27.png (PNG copy)> 
+<./Figures/lec4_beeSingleChainb28.png (PNG copy)> <./Figures/lec4_beeSingleChai
+nb29.png (PNG copy)> <./Figures/lec4_beeSingleChainb30.png (PNG copy)> <./Figur
+es/lec4_beeSingleChainb31.png (PNG copy)> <./Figures/lec4_beeSingleChainb32.png
+ (PNG copy)> <./Figures/lec4_beeSingleChainb33.png (PNG copy)> <./Figures/lec4_
+beeSingleChainb34.png (PNG copy)> <./Figures/lec4_beeSingleChainb35.png (PNG co
+py)> <./Figures/lec4_beeSingleChainb36.png (PNG copy)> <./Figures/lec4_beeSingl
+eChainb37.png (PNG copy)> <./Figures/lec4_beeSingleChainb38.png (PNG copy)> <./
+Figures/lec4_beeSingleChainb39.png (PNG copy)> <./Figures/lec4_beeSingleChainb4
+0.png (PNG copy)> <./Figures/lec4_beeSingleChainb41.png (PNG copy)> <./Figures/
+lec4_beeSingleChainb42.png (PNG copy)> <./Figures/lec4_beeSingleChainb43.png (P
+NG copy)> <./Figures/lec4_beeSingleChainb44.png (PNG copy)> <./Figures/lec4_bee
+SingleChainb45.png (PNG copy)> <./Figures/lec4_beeSingleChainb46.png (PNG copy)
+> <./Figures/lec4_beeSingleChainb47.png (PNG copy)> <./Figures/lec4_beeSingleCh
+ainb48.png (PNG copy)> <./Figures/lec4_beeSingleChainb49.png (PNG copy)> <./Fig
+ures/lec4_beeSingleChainb50.png (PNG copy)> <./Figures/lec4_beeSingleChainb51.p
+ng (PNG copy)> <./Figures/lec4_beeSingleChainb52.png (PNG copy)> <./Figures/lec
+4_beeSingleChainb53.png (PNG copy)> <./Figures/lec4_beeSingleChainb54.png (PNG 
+copy)> <./Figures/lec4_beeSingleChainb55.png (PNG copy)> <./Figures/lec4_beeSin
+gleChainb56.png (PNG copy)> <./Figures/lec4_beeSingleChainb57.png (PNG copy)> <
+./Figures/lec4_beeSingleChainb58.png (PNG copy)> <./Figures/lec4_beeSingleChain
+b59.png (PNG copy)> <./Figures/lec4_beeSingleChainb60.png (PNG copy)> <./Figure
+s/lec4_beeSingleChainb61.png (PNG copy)> <./Figures/lec4_beeSingleChainb62.png 
+(PNG copy)> <./Figures/lec4_beeSingleChainb63.png (PNG copy)> <./Figures/lec4_b
+eeSingleChainb64.png (PNG copy)> <./Figures/lec4_beeSingleChainb65.png (PNG cop
+y)> <./Figures/lec4_beeSingleChainb66.png (PNG copy)> <./Figures/lec4_beeSingle
+Chainb67.png (PNG copy)> <./Figures/lec4_beeSingleChainb68.png (PNG copy)> <./F
+igures/lec4_beeSingleChainb69.png (PNG copy)> <./Figures/lec4_beeSingleChainb70
+.png (PNG copy)> <./Figures/lec4_beeSingleChainb71.png (PNG copy)> <./Figures/l
+ec4_beeSingleChainb72.png (PNG copy)> <./Figures/lec4_beeSingleChainb73.png (PN
+G copy)> <./Figures/lec4_beeSingleChainb74.png (PNG copy)> <./Figures/lec4_beeS
+ingleChainb75.png (PNG copy)> <./Figures/lec4_beeSingleChainb76.png (PNG copy)>
+ <./Figures/lec4_beeSingleChainb77.png (PNG copy)> <./Figures/lec4_beeSingleCha
+inb78.png (PNG copy)> <./Figures/lec4_beeSingleChainb79.png (PNG copy)> <./Figu
+res/lec4_beeSingleChainb80.png (PNG copy)> <./Figures/lec4_beeSingleChainb81.pn
+g (PNG copy)> <./Figures/lec4_beeSingleChainb82.png (PNG copy)> <./Figures/lec4
+_beeSingleChainb83.png (PNG copy)> <./Figures/lec4_beeSingleChainb84.png (PNG c
+opy)> <./Figures/lec4_beeSingleChainb85.png (PNG copy)> <./Figures/lec4_beeSing
+leChainb86.png (PNG copy)> <./Figures/lec4_beeSingleChainb87.png (PNG copy)> <.
+/Figures/lec4_beeSingleChainb88.png (PNG copy)> <./Figures/lec4_beeSingleChainb
+89.png (PNG copy)> <./Figures/lec4_beeSingleChainb90.png (PNG copy)> <./Figures
+/lec4_beeSingleChainb91.png (PNG copy)> <./Figures/lec4_beeSingleChainb92.png (
+PNG copy)> <./Figures/lec4_beeSingleChainb93.png (PNG copy)> <./Figures/lec4_be
+eSingleChainb94.png (PNG copy)> <./Figures/lec4_beeSingleChainb95.png (PNG copy
+)> <./Figures/lec4_beeSingleChainb96.png (PNG copy)> <./Figures/lec4_beeSingleC
+hainb97.png (PNG copy)> <./Figures/lec4_beeSingleChainb98.png (PNG copy)> <./Fi
+gures/lec4_beeSingleChainb99.png (PNG copy)> <./Figures/lec4_beeSingleChainb100
+.png (PNG copy)> <./Figures/lec4_beeSingleChainb101.png (PNG copy)> [49
+
+] <./Figures/lec4_beeSingleChainc1.png (PNG copy)> <./Figures/lec4_beeSingleCha
+inc2.png (PNG copy)> <./Figures/lec4_beeSingleChainc3.png (PNG copy)> <./Figure
+s/lec4_beeSingleChainc4.png (PNG copy)> <./Figures/lec4_beeSingleChainc5.png (P
+NG copy)> <./Figures/lec4_beeSingleChainc6.png (PNG copy)> <./Figures/lec4_beeS
+ingleChainc7.png (PNG copy)> <./Figures/lec4_beeSingleChainc8.png (PNG copy)> <
+./Figures/lec4_beeSingleChainc9.png (PNG copy)> <./Figures/lec4_beeSingleChainc
+10.png (PNG copy)> <./Figures/lec4_beeSingleChainc11.png (PNG copy)> <./Figures
+/lec4_beeSingleChainc12.png (PNG copy)> <./Figures/lec4_beeSingleChainc13.png (
+PNG copy)> <./Figures/lec4_beeSingleChainc14.png (PNG copy)> <./Figures/lec4_be
+eSingleChainc15.png (PNG copy)> <./Figures/lec4_beeSingleChainc16.png (PNG copy
+)> <./Figures/lec4_beeSingleChainc17.png (PNG copy)> <./Figures/lec4_beeSingleC
+hainc18.png (PNG copy)> <./Figures/lec4_beeSingleChainc19.png (PNG copy)> <./Fi
+gures/lec4_beeSingleChainc20.png (PNG copy)> <./Figures/lec4_beeSingleChainc21.
+png (PNG copy)> <./Figures/lec4_beeSingleChainc22.png (PNG copy)> <./Figures/le
+c4_beeSingleChainc23.png (PNG copy)> <./Figures/lec4_beeSingleChainc24.png (PNG
+ copy)> <./Figures/lec4_beeSingleChainc25.png (PNG copy)> <./Figures/lec4_beeSi
+ngleChainc26.png (PNG copy)> <./Figures/lec4_beeSingleChainc27.png (PNG copy)> 
+<./Figures/lec4_beeSingleChainc28.png (PNG copy)> <./Figures/lec4_beeSingleChai
+nc29.png (PNG copy)> <./Figures/lec4_beeSingleChainc30.png (PNG copy)> <./Figur
+es/lec4_beeSingleChainc31.png (PNG copy)> <./Figures/lec4_beeSingleChainc32.png
+ (PNG copy)> <./Figures/lec4_beeSingleChainc33.png (PNG copy)> <./Figures/lec4_
+beeSingleChainc34.png (PNG copy)> <./Figures/lec4_beeSingleChainc35.png (PNG co
+py)> <./Figures/lec4_beeSingleChainc36.png (PNG copy)> <./Figures/lec4_beeSingl
+eChainc37.png (PNG copy)> <./Figures/lec4_beeSingleChainc38.png (PNG copy)> <./
+Figures/lec4_beeSingleChainc39.png (PNG copy)> <./Figures/lec4_beeSingleChainc4
+0.png (PNG copy)> <./Figures/lec4_beeSingleChainc41.png (PNG copy)> <./Figures/
+lec4_beeSingleChainc42.png (PNG copy)> <./Figures/lec4_beeSingleChainc43.png (P
+NG copy)> <./Figures/lec4_beeSingleChainc44.png (PNG copy)> <./Figures/lec4_bee
+SingleChainc45.png (PNG copy)> <./Figures/lec4_beeSingleChainc46.png (PNG copy)
+> <./Figures/lec4_beeSingleChainc47.png (PNG copy)> <./Figures/lec4_beeSingleCh
+ainc48.png (PNG copy)> <./Figures/lec4_beeSingleChainc49.png (PNG copy)> <./Fig
+ures/lec4_beeSingleChainc50.png (PNG copy)> <./Figures/lec4_beeSingleChainc51.p
+ng (PNG copy)> <./Figures/lec4_beeSingleChainc52.png (PNG copy)> <./Figures/lec
+4_beeSingleChainc53.png (PNG copy)> <./Figures/lec4_beeSingleChainc54.png (PNG 
+copy)> <./Figures/lec4_beeSingleChainc55.png (PNG copy)> <./Figures/lec4_beeSin
+gleChainc56.png (PNG copy)> <./Figures/lec4_beeSingleChainc57.png (PNG copy)> <
+./Figures/lec4_beeSingleChainc58.png (PNG copy)> <./Figures/lec4_beeSingleChain
+c59.png (PNG copy)> <./Figures/lec4_beeSingleChainc60.png (PNG copy)> <./Figure
+s/lec4_beeSingleChainc61.png (PNG copy)> <./Figures/lec4_beeSingleChainc62.png 
+(PNG copy)> <./Figures/lec4_beeSingleChainc63.png (PNG copy)> <./Figures/lec4_b
+eeSingleChainc64.png (PNG copy)> <./Figures/lec4_beeSingleChainc65.png (PNG cop
+y)> <./Figures/lec4_beeSingleChainc66.png (PNG copy)> <./Figures/lec4_beeSingle
+Chainc67.png (PNG copy)> <./Figures/lec4_beeSingleChainc68.png (PNG copy)> <./F
+igures/lec4_beeSingleChainc69.png (PNG copy)> <./Figures/lec4_beeSingleChainc70
+.png (PNG copy)> <./Figures/lec4_beeSingleChainc71.png (PNG copy)> <./Figures/l
+ec4_beeSingleChainc72.png (PNG copy)> <./Figures/lec4_beeSingleChainc73.png (PN
+G copy)> <./Figures/lec4_beeSingleChainc74.png (PNG copy)> <./Figures/lec4_beeS
+ingleChainc75.png (PNG copy)> <./Figures/lec4_beeSingleChainc76.png (PNG copy)>
+ <./Figures/lec4_beeSingleChainc77.png (PNG copy)> <./Figures/lec4_beeSingleCha
+inc78.png (PNG copy)> <./Figures/lec4_beeSingleChainc79.png (PNG copy)> <./Figu
+res/lec4_beeSingleChainc80.png (PNG copy)> <./Figures/lec4_beeSingleChainc81.pn
+g (PNG copy)> <./Figures/lec4_beeSingleChainc82.png (PNG copy)> <./Figures/lec4
+_beeSingleChainc83.png (PNG copy)> <./Figures/lec4_beeSingleChainc84.png (PNG c
+opy)> <./Figures/lec4_beeSingleChainc85.png (PNG copy)> <./Figures/lec4_beeSing
+leChainc86.png (PNG copy)> <./Figures/lec4_beeSingleChainc87.png (PNG copy)> <.
+/Figures/lec4_beeSingleChainc88.png (PNG copy)> <./Figures/lec4_beeSingleChainc
+89.png (PNG copy)> <./Figures/lec4_beeSingleChainc90.png (PNG copy)> <./Figures
+/lec4_beeSingleChainc91.png (PNG copy)> <./Figures/lec4_beeSingleChainc92.png (
+PNG copy)> <./Figures/lec4_beeSingleChainc93.png (PNG copy)> <./Figures/lec4_be
+eSingleChainc94.png (PNG copy)> <./Figures/lec4_beeSingleChainc95.png (PNG copy
+)> <./Figures/lec4_beeSingleChainc96.png (PNG copy)> <./Figures/lec4_beeSingleC
+hainc97.png (PNG copy)> <./Figures/lec4_beeSingleChainc98.png (PNG copy)> <./Fi
+gures/lec4_beeSingleChainc99.png (PNG copy)> <./Figures/lec4_beeSingleChainc100
+.png (PNG copy)> <./Figures/lec4_beeSingleChainc101.png (PNG copy)> <./Figures/
+lec4_beeSingleChainc102.png (PNG copy)> <./Figures/lec4_beeSingleChainc103.png 
+(PNG copy)> <./Figures/lec4_beeSingleChainc104.png (PNG copy)> <./Figures/lec4_
+beeSingleChainc105.png (PNG copy)> <./Figures/lec4_beeSingleChainc106.png (PNG 
+copy)> <./Figures/lec4_beeSingleChainc107.png (PNG copy)> <./Figures/lec4_beeSi
+ngleChainc108.png (PNG copy)> <./Figures/lec4_beeSingleChainc109.png (PNG copy)
+> <./Figures/lec4_beeSingleChainc110.png (PNG copy)> <./Figures/lec4_beeSingleC
+hainc111.png (PNG copy)> [50
+
+] [51
+
+] <./Figures/lec4_beeSingleChainBuilding1.png (PNG copy)> <./Figures/lec4_beeSi
+ngleChainBuilding2.png (PNG copy)> <./Figures/lec4_beeSingleChainBuilding3.png 
+(PNG copy)> <./Figures/lec4_beeSingleChainBuilding4.png (PNG copy)> <./Figures/
+lec4_beeSingleChainBuilding5.png (PNG copy)> <./Figures/lec4_beeSingleChainBuil
+ding6.png (PNG copy)> <./Figures/lec4_beeSingleChainBuilding7.png (PNG copy)> <
+./Figures/lec4_beeSingleChainBuilding8.png (PNG copy)> <./Figures/lec4_beeSingl
+eChainBuilding9.png (PNG copy)> <./Figures/lec4_beeSingleChainBuilding10.png (P
+NG copy)> <./Figures/lec4_beeSingleChainBuilding11.png (PNG copy)> <./Figures/l
+ec4_beeSingleChainBuilding12.png (PNG copy)> <./Figures/lec4_beeSingleChainBuil
+ding13.png (PNG copy)> <./Figures/lec4_beeSingleChainBuilding14.png (PNG copy)>
+ <./Figures/lec4_beeSingleChainBuilding15.png (PNG copy)> <./Figures/lec4_beeSi
+ngleChainBuilding16.png (PNG copy)> <./Figures/lec4_beeSingleChainBuilding17.pn
+g (PNG copy)> <./Figures/lec4_beeSingleChainBuilding18.png (PNG copy)> <./Figur
+es/lec4_beeSingleChainBuilding19.png (PNG copy)> <./Figures/lec4_beeSingleChain
+Building20.png (PNG copy)> <./Figures/lec4_beeSingleChainBuilding21.png (PNG co
+py)> <./Figures/lec4_beeSingleChainBuilding22.png (PNG copy)> <./Figures/lec4_b
+eeSingleChainBuilding23.png (PNG copy)> <./Figures/lec4_beeSingleChainBuilding2
+4.png (PNG copy)> <./Figures/lec4_beeSingleChainBuilding25.png (PNG copy)> <./F
+igures/lec4_beeSingleChainBuilding26.png (PNG copy)> <./Figures/lec4_beeSingleC
+hainBuilding27.png (PNG copy)> <./Figures/lec4_beeSingleChainBuilding28.png (PN
+G copy)> <./Figures/lec4_beeSingleChainBuilding29.png (PNG copy)> <./Figures/le
+c4_beeSingleChainBuilding30.png (PNG copy)> <./Figures/lec4_beeSingleChainBuild
+ing31.png (PNG copy)> <./Figures/lec4_beeSingleChainBuilding32.png (PNG copy)> 
+<./Figures/lec4_beeSingleChainBuilding33.png (PNG copy)> <./Figures/lec4_beeSin
+gleChainBuilding34.png (PNG copy)> <./Figures/lec4_beeSingleChainBuilding35.png
+ (PNG copy)> <./Figures/lec4_beeSingleChainBuilding36.png (PNG copy)> <./Figure
+s/lec4_beeSingleChainBuilding37.png (PNG copy)> <./Figures/lec4_beeSingleChainB
+uilding38.png (PNG copy)> <./Figures/lec4_beeSingleChainBuilding39.png (PNG cop
+y)> <./Figures/lec4_beeSingleChainBuilding40.png (PNG copy)> <./Figures/lec4_be
+eSingleChainBuilding41.png (PNG copy)> <./Figures/lec4_beeSingleChainBuilding42
+.png (PNG copy)> <./Figures/lec4_beeSingleChainBuilding43.png (PNG copy)> <./Fi
+gures/lec4_beeSingleChainBuilding44.png (PNG copy)> <./Figures/lec4_beeSingleCh
+ainBuilding45.png (PNG copy)> <./Figures/lec4_beeSingleChainBuilding46.png (PNG
+ copy)> <./Figures/lec4_beeSingleChainBuilding47.png (PNG copy)> <./Figures/lec
+4_beeSingleChainBuilding48.png (PNG copy)> <./Figures/lec4_beeSingleChainBuildi
+ng49.png (PNG copy)> <./Figures/lec4_beeSingleChainBuilding50.png (PNG copy)> <
+./Figures/lec4_beeSingleChainBuilding51.png (PNG copy)> <./Figures/lec4_beeSing
+leChainBuilding52.png (PNG copy)> <./Figures/lec4_beeSingleChainBuilding53.png 
+(PNG copy)> <./Figures/lec4_beeSingleChainBuilding54.png (PNG copy)> <./Figures
+/lec4_beeSingleChainBuilding55.png (PNG copy)> <./Figures/lec4_beeSingleChainBu
+ilding56.png (PNG copy)> <./Figures/lec4_beeSingleChainBuilding57.png (PNG copy
+)> <./Figures/lec4_beeSingleChainBuilding58.png (PNG copy)> <./Figures/lec4_bee
+SingleChainBuilding59.png (PNG copy)> <./Figures/lec4_beeSingleChainBuilding60.
+png (PNG copy)> <./Figures/lec4_beeSingleChainBuilding61.png (PNG copy)> <./Fig
+ures/lec4_beeSingleChainBuilding62.png (PNG copy)> <./Figures/lec4_beeSingleCha
+inBuilding63.png (PNG copy)> <./Figures/lec4_beeSingleChainBuilding64.png (PNG 
+copy)> <./Figures/lec4_beeSingleChainBuilding65.png (PNG copy)> <./Figures/lec4
+_beeSingleChainBuilding66.png (PNG copy)> <./Figures/lec4_beeSingleChainBuildin
+g67.png (PNG copy)> <./Figures/lec4_beeSingleChainBuilding68.png (PNG copy)> <.
+/Figures/lec4_beeSingleChainBuilding69.png (PNG copy)> <./Figures/lec4_beeSingl
+eChainBuilding70.png (PNG copy)> <./Figures/lec4_beeSingleChainBuilding71.png (
+PNG copy)> <./Figures/lec4_beeSingleChainBuilding72.png (PNG copy)> <./Figures/
+lec4_beeSingleChainBuilding73.png (PNG copy)> <./Figures/lec4_beeSingleChainBui
+lding74.png (PNG copy)> <./Figures/lec4_beeSingleChainBuilding75.png (PNG copy)
+> <./Figures/lec4_beeSingleChainBuilding76.png (PNG copy)> <./Figures/lec4_beeS
+ingleChainBuilding77.png (PNG copy)> <./Figures/lec4_beeSingleChainBuilding78.p
+ng (PNG copy)> <./Figures/lec4_beeSingleChainBuilding79.png (PNG copy)> <./Figu
+res/lec4_beeSingleChainBuilding80.png (PNG copy)> <./Figures/lec4_beeSingleChai
+nBuilding81.png (PNG copy)> <./Figures/lec4_beeSingleChainBuilding82.png (PNG c
+opy)> <./Figures/lec4_beeSingleChainBuilding83.png (PNG copy)> <./Figures/lec4_
+beeSingleChainBuilding84.png (PNG copy)> <./Figures/lec4_beeSingleChainBuilding
+85.png (PNG copy)> <./Figures/lec4_beeSingleChainBuilding86.png (PNG copy)> <./
+Figures/lec4_beeSingleChainBuilding87.png (PNG copy)> <./Figures/lec4_beeSingle
+ChainBuilding88.png (PNG copy)> <./Figures/lec4_beeSingleChainBuilding89.png (P
+NG copy)> <./Figures/lec4_beeSingleChainBuilding90.png (PNG copy)> <./Figures/l
+ec4_beeSingleChainBuilding91.png (PNG copy)> <./Figures/lec4_beeSingleChainBuil
+ding92.png (PNG copy)> <./Figures/lec4_beeSingleChainBuilding93.png (PNG copy)>
+ <./Figures/lec4_beeSingleChainBuilding94.png (PNG copy)> <./Figures/lec4_beeSi
+ngleChainBuilding95.png (PNG copy)> <./Figures/lec4_beeSingleChainBuilding96.pn
+g (PNG copy)> <./Figures/lec4_beeSingleChainBuilding97.png (PNG copy)> <./Figur
+es/lec4_beeSingleChainBuilding98.png (PNG copy)> <./Figures/lec4_beeSingleChain
+Building99.png (PNG copy)> <./Figures/lec4_beeSingleChainBuilding100.png (PNG c
+opy)> <./Figures/lec4_beeSingleChainBuilding101.png (PNG copy)> <./Figures/lec4
+_beeSingleChainBuilding102.png (PNG copy)> <./Figures/lec4_beeSingleChainBuildi
+ng103.png (PNG copy)> <./Figures/lec4_beeSingleChainBuilding104.png (PNG copy)>
+ <./Figures/lec4_beeSingleChainBuilding105.png (PNG copy)> <./Figures/lec4_beeS
+ingleChainBuilding106.png (PNG copy)> <./Figures/lec4_beeSingleChainBuilding107
+.png (PNG copy)> <./Figures/lec4_beeSingleChainBuilding108.png (PNG copy)> <./F
+igures/lec4_beeSingleChainBuilding109.png (PNG copy)> <./Figures/lec4_beeSingle
+ChainBuilding110.png (PNG copy)> <./Figures/lec4_beeSingleChainBuilding111.png 
+(PNG copy)>
+Overfull \vbox (6.62083pt too high) detected at line 612
+ []
+
+[52
+
+] [53
+
+] <./Figures/lec4_bees.pdf, id=6307, 467.3596pt x 558.82593pt>
+File: ./Figures/lec4_bees.pdf Graphic file (type pdf)
+
+<use ./Figures/lec4_bees.pdf>
+Package pdftex.def Info: ./Figures/lec4_bees.pdf used on input line 638.
+(pdftex.def)             Requested size: 87.22366pt x 104.29356pt.
+ [54
+
+ <./Figures/lec4_bees.pdf>] <./Figures/Lec4_beeMultipleChainWithouta1.png (PNG 
+copy)> <./Figures/Lec4_beeMultipleChainWithouta2.png (PNG copy)> <./Figures/Lec
+4_beeMultipleChainWithouta3.png (PNG copy)> <./Figures/Lec4_beeMultipleChainWit
+houta4.png (PNG copy)> <./Figures/Lec4_beeMultipleChainWithouta5.png (PNG copy)
+> <./Figures/Lec4_beeMultipleChainWithouta6.png (PNG copy)> <./Figures/Lec4_bee
+MultipleChainWithouta7.png (PNG copy)> <./Figures/Lec4_beeMultipleChainWithouta
+8.png (PNG copy)> <./Figures/Lec4_beeMultipleChainWithouta9.png (PNG copy)> <./
+Figures/Lec4_beeMultipleChainWithouta10.png (PNG copy)> <./Figures/Lec4_beeMult
+ipleChainWithouta11.png (PNG copy)> <./Figures/Lec4_beeMultipleChainWithouta12.
+png (PNG copy)> <./Figures/Lec4_beeMultipleChainWithouta13.png (PNG copy)> <./F
+igures/Lec4_beeMultipleChainWithouta14.png (PNG copy)> <./Figures/Lec4_beeMulti
+pleChainWithouta15.png (PNG copy)> <./Figures/Lec4_beeMultipleChainWithouta16.p
+ng (PNG copy)> <./Figures/Lec4_beeMultipleChainWithouta17.png (PNG copy)> <./Fi
+gures/Lec4_beeMultipleChainWithouta18.png (PNG copy)> <./Figures/Lec4_beeMultip
+leChainWithouta19.png (PNG copy)> <./Figures/Lec4_beeMultipleChainWithouta20.pn
+g (PNG copy)> <./Figures/Lec4_beeMultipleChainWithouta21.png (PNG copy)> <./Fig
+ures/Lec4_beeMultipleChainWithouta22.png (PNG copy)> <./Figures/Lec4_beeMultipl
+eChainWithouta23.png (PNG copy)> <./Figures/Lec4_beeMultipleChainWithouta24.png
+ (PNG copy)> <./Figures/Lec4_beeMultipleChainWithouta25.png (PNG copy)> <./Figu
+res/Lec4_beeMultipleChainWithouta26.png (PNG copy)> <./Figures/Lec4_beeMultiple
+ChainWithouta27.png (PNG copy)> <./Figures/Lec4_beeMultipleChainWithouta28.png 
+(PNG copy)> <./Figures/Lec4_beeMultipleChainWithouta29.png (PNG copy)> <./Figur
+es/Lec4_beeMultipleChainWithouta30.png (PNG copy)> <./Figures/Lec4_beeMultipleC
+hainWithouta31.png (PNG copy)> <./Figures/Lec4_beeMultipleChainWithouta32.png (
+PNG copy)> <./Figures/Lec4_beeMultipleChainWithouta33.png (PNG copy)> <./Figure
+s/Lec4_beeMultipleChainWithouta34.png (PNG copy)> <./Figures/Lec4_beeMultipleCh
+ainWithouta35.png (PNG copy)> <./Figures/Lec4_beeMultipleChainWithouta36.png (P
+NG copy)> <./Figures/Lec4_beeMultipleChainWithouta37.png (PNG copy)> <./Figures
+/Lec4_beeMultipleChainWithouta38.png (PNG copy)> <./Figures/Lec4_beeMultipleCha
+inWithouta39.png (PNG copy)> <./Figures/Lec4_beeMultipleChainWithouta40.png (PN
+G copy)> <./Figures/Lec4_beeMultipleChainWithouta41.png (PNG copy)> <./Figures/
+Lec4_beeMultipleChainWithouta42.png (PNG copy)> <./Figures/Lec4_beeMultipleChai
+nWithouta43.png (PNG copy)> <./Figures/Lec4_beeMultipleChainWithouta44.png (PNG
+ copy)> <./Figures/Lec4_beeMultipleChainWithouta45.png (PNG copy)> <./Figures/L
+ec4_beeMultipleChainWithouta46.png (PNG copy)> <./Figures/Lec4_beeMultipleChain
+Withouta47.png (PNG copy)> <./Figures/Lec4_beeMultipleChainWithouta48.png (PNG 
+copy)> <./Figures/Lec4_beeMultipleChainWithouta49.png (PNG copy)> <./Figures/Le
+c4_beeMultipleChainWithouta50.png (PNG copy)> <./Figures/Lec4_beeMultipleChainW
+ithouta51.png (PNG copy)> <./Figures/Lec4_beeMultipleChainWithouta52.png (PNG c
+opy)> <./Figures/Lec4_beeMultipleChainWithouta53.png (PNG copy)> <./Figures/Lec
+4_beeMultipleChainWithouta54.png (PNG copy)> <./Figures/Lec4_beeMultipleChainWi
+thouta55.png (PNG copy)> <./Figures/Lec4_beeMultipleChainWithouta56.png (PNG co
+py)> <./Figures/Lec4_beeMultipleChainWithouta57.png (PNG copy)> <./Figures/Lec4
+_beeMultipleChainWithouta58.png (PNG copy)> <./Figures/Lec4_beeMultipleChainWit
+houta59.png (PNG copy)> <./Figures/Lec4_beeMultipleChainWithouta60.png (PNG cop
+y)> <./Figures/Lec4_beeMultipleChainWithouta61.png (PNG copy)> <./Figures/Lec4_
+beeMultipleChainWithouta62.png (PNG copy)> <./Figures/Lec4_beeMultipleChainWith
+outa63.png (PNG copy)> <./Figures/Lec4_beeMultipleChainWithouta64.png (PNG copy
+)> <./Figures/Lec4_beeMultipleChainWithouta65.png (PNG copy)> <./Figures/Lec4_b
+eeMultipleChainWithouta66.png (PNG copy)> <./Figures/Lec4_beeMultipleChainWitho
+uta67.png (PNG copy)> <./Figures/Lec4_beeMultipleChainWithouta68.png (PNG copy)
+> <./Figures/Lec4_beeMultipleChainWithouta69.png (PNG copy)> <./Figures/Lec4_be
+eMultipleChainWithouta70.png (PNG copy)> <./Figures/Lec4_beeMultipleChainWithou
+ta71.png (PNG copy)> <./Figures/Lec4_beeMultipleChainWithouta72.png (PNG copy)>
+ <./Figures/Lec4_beeMultipleChainWithouta73.png (PNG copy)> <./Figures/Lec4_bee
+MultipleChainWithouta74.png (PNG copy)> <./Figures/Lec4_beeMultipleChainWithout
+a75.png (PNG copy)> <./Figures/Lec4_beeMultipleChainWithouta76.png (PNG copy)> 
+<./Figures/Lec4_beeMultipleChainWithouta77.png (PNG copy)> <./Figures/Lec4_beeM
+ultipleChainWithouta78.png (PNG copy)> <./Figures/Lec4_beeMultipleChainWithouta
+79.png (PNG copy)> <./Figures/Lec4_beeMultipleChainWithouta80.png (PNG copy)> <
+./Figures/Lec4_beeMultipleChainWithouta81.png (PNG copy)>
+Overfull \vbox (6.62083pt too high) detected at line 647
+ []
+
+[55
+
+] <./Figures/lec4_beeMultipleChainWithoutFina1.png (PNG copy)> <./Figures/lec4_
+beeMultipleChainWithoutFina2.png (PNG copy)> <./Figures/lec4_beeMultipleChainWi
+thoutFina3.png (PNG copy)> <./Figures/lec4_beeMultipleChainWithoutFina4.png (PN
+G copy)> <./Figures/lec4_beeMultipleChainWithoutFina5.png (PNG copy)> <./Figure
+s/lec4_beeMultipleChainWithoutFina6.png (PNG copy)> <./Figures/lec4_beeMultiple
+ChainWithoutFina7.png (PNG copy)> <./Figures/lec4_beeMultipleChainWithoutFina8.
+png (PNG copy)> <./Figures/lec4_beeMultipleChainWithoutFina9.png (PNG copy)> <.
+/Figures/lec4_beeMultipleChainWithoutFina10.png (PNG copy)> <./Figures/lec4_bee
+MultipleChainWithoutFina11.png (PNG copy)> <./Figures/lec4_beeMultipleChainWith
+outFina12.png (PNG copy)> <./Figures/lec4_beeMultipleChainWithoutFina13.png (PN
+G copy)> <./Figures/lec4_beeMultipleChainWithoutFina14.png (PNG copy)> <./Figur
+es/lec4_beeMultipleChainWithoutFina15.png (PNG copy)> <./Figures/lec4_beeMultip
+leChainWithoutFina16.png (PNG copy)> <./Figures/lec4_beeMultipleChainWithoutFin
+a17.png (PNG copy)> <./Figures/lec4_beeMultipleChainWithoutFina18.png (PNG copy
+)> <./Figures/lec4_beeMultipleChainWithoutFina19.png (PNG copy)> <./Figures/lec
+4_beeMultipleChainWithoutFina20.png (PNG copy)> <./Figures/lec4_beeMultipleChai
+nWithoutFina21.png (PNG copy)> <./Figures/lec4_beeMultipleChainWithoutFina22.pn
+g (PNG copy)> <./Figures/lec4_beeMultipleChainWithoutFina23.png (PNG copy)> <./
+Figures/lec4_beeMultipleChainWithoutFina24.png (PNG copy)> <./Figures/lec4_beeM
+ultipleChainWithoutFina25.png (PNG copy)> <./Figures/lec4_beeMultipleChainWitho
+utFina26.png (PNG copy)> <./Figures/lec4_beeMultipleChainWithoutFina27.png (PNG
+ copy)> <./Figures/lec4_beeMultipleChainWithoutFina28.png (PNG copy)> <./Figure
+s/lec4_beeMultipleChainWithoutFina29.png (PNG copy)> <./Figures/lec4_beeMultipl
+eChainWithoutFina30.png (PNG copy)> <./Figures/lec4_beeMultipleChainWithoutFina
+31.png (PNG copy)> <./Figures/lec4_beeMultipleChainWithoutFina32.png (PNG copy)
+> <./Figures/lec4_beeMultipleChainWithoutFina33.png (PNG copy)> <./Figures/lec4
+_beeMultipleChainWithoutFina34.png (PNG copy)> <./Figures/lec4_beeMultipleChain
+WithoutFina35.png (PNG copy)> <./Figures/lec4_beeMultipleChainWithoutFina36.png
+ (PNG copy)> <./Figures/lec4_beeMultipleChainWithoutFina37.png (PNG copy)> <./F
+igures/lec4_beeMultipleChainWithoutFina38.png (PNG copy)> <./Figures/lec4_beeMu
+ltipleChainWithoutFina39.png (PNG copy)> <./Figures/lec4_beeMultipleChainWithou
+tFina40.png (PNG copy)> <./Figures/lec4_beeMultipleChainWithoutFina41.png (PNG 
+copy)>
+Overfull \vbox (6.1298pt too high) detected at line 656
+ []
+
+[56
+
+] [57
+
+] <./Figures/lec5_beeSingleChain1.png (PNG copy)> <./Figures/lec5_beeSingleChai
+n2.png (PNG copy)> <./Figures/lec5_beeSingleChain3.png (PNG copy)> <./Figures/l
+ec5_beeSingleChain4.png (PNG copy)> <./Figures/lec5_beeSingleChain5.png (PNG co
+py)> <./Figures/lec5_beeSingleChain6.png (PNG copy)> <./Figures/lec5_beeSingleC
+hain7.png (PNG copy)> <./Figures/lec5_beeSingleChain8.png (PNG copy)> <./Figure
+s/lec5_beeSingleChain9.png (PNG copy)> <./Figures/lec5_beeSingleChain10.png (PN
+G copy)> <./Figures/lec5_beeSingleChain11.png (PNG copy)> <./Figures/lec5_beeSi
+ngleChain12.png (PNG copy)> <./Figures/lec5_beeSingleChain13.png (PNG copy)> <.
+/Figures/lec5_beeSingleChain14.png (PNG copy)> <./Figures/lec5_beeSingleChain15
+.png (PNG copy)> <./Figures/lec5_beeSingleChain16.png (PNG copy)> <./Figures/le
+c5_beeSingleChain17.png (PNG copy)> <./Figures/lec5_beeSingleChain18.png (PNG c
+opy)> <./Figures/lec5_beeSingleChain19.png (PNG copy)> <./Figures/lec5_beeSingl
+eChain20.png (PNG copy)> <./Figures/lec5_beeSingleChain21.png (PNG copy)> <./Fi
+gures/lec5_beeSingleChain22.png (PNG copy)> <./Figures/lec5_beeSingleChain23.pn
+g (PNG copy)> <./Figures/lec5_beeSingleChain24.png (PNG copy)> <./Figures/lec5_
+beeSingleChain25.png (PNG copy)> <./Figures/lec5_beeSingleChain26.png (PNG copy
+)> <./Figures/lec5_beeSingleChain27.png (PNG copy)> <./Figures/lec5_beeSingleCh
+ain28.png (PNG copy)> <./Figures/lec5_beeSingleChain29.png (PNG copy)> <./Figur
+es/lec5_beeSingleChain30.png (PNG copy)> <./Figures/lec5_beeSingleChain31.png (
+PNG copy)> <./Figures/lec5_beeSingleChain32.png (PNG copy)> <./Figures/lec5_bee
+SingleChain33.png (PNG copy)> <./Figures/lec5_beeSingleChain34.png (PNG copy)> 
+<./Figures/lec5_beeSingleChain35.png (PNG copy)> <./Figures/lec5_beeSingleChain
+36.png (PNG copy)> <./Figures/lec5_beeSingleChain37.png (PNG copy)> <./Figures/
+lec5_beeSingleChain38.png (PNG copy)> <./Figures/lec5_beeSingleChain39.png (PNG
+ copy)> <./Figures/lec5_beeSingleChain40.png (PNG copy)> <./Figures/lec5_beeSin
+gleChain41.png (PNG copy)> <./Figures/lec5_beeSingleChain42.png (PNG copy)> <./
+Figures/lec5_beeSingleChain43.png (PNG copy)> <./Figures/lec5_beeSingleChain44.
+png (PNG copy)> <./Figures/lec5_beeSingleChain45.png (PNG copy)> <./Figures/lec
+5_beeSingleChain46.png (PNG copy)> <./Figures/lec5_beeSingleChain47.png (PNG co
+py)> <./Figures/lec5_beeSingleChain48.png (PNG copy)> <./Figures/lec5_beeSingle
+Chain49.png (PNG copy)> <./Figures/lec5_beeSingleChain50.png (PNG copy)> <./Fig
+ures/lec5_beeSingleChain51.png (PNG copy)> <./Figures/lec5_beeSingleChain52.png
+ (PNG copy)> <./Figures/lec5_beeSingleChain53.png (PNG copy)> <./Figures/lec5_b
+eeSingleChain54.png (PNG copy)> <./Figures/lec5_beeSingleChain55.png (PNG copy)
+> <./Figures/lec5_beeSingleChain56.png (PNG copy)> <./Figures/lec5_beeSingleCha
+in57.png (PNG copy)> <./Figures/lec5_beeSingleChain58.png (PNG copy)> <./Figure
+s/lec5_beeSingleChain59.png (PNG copy)> <./Figures/lec5_beeSingleChain60.png (P
+NG copy)> <./Figures/lec5_beeSingleChain61.png (PNG copy)> <./Figures/lec5_beeS
+ingleChain62.png (PNG copy)> <./Figures/lec5_beeSingleChain63.png (PNG copy)> <
+./Figures/lec5_beeSingleChain64.png (PNG copy)> <./Figures/lec5_beeSingleChain6
+5.png (PNG copy)> <./Figures/lec5_beeSingleChain66.png (PNG copy)> <./Figures/l
+ec5_beeSingleChain67.png (PNG copy)> <./Figures/lec5_beeSingleChain68.png (PNG 
+copy)> <./Figures/lec5_beeSingleChain69.png (PNG copy)> <./Figures/lec5_beeSing
+leChain70.png (PNG copy)> <./Figures/lec5_beeSingleChain71.png (PNG copy)> <./F
+igures/lec5_beeSingleChain72.png (PNG copy)> <./Figures/lec5_beeSingleChain73.p
+ng (PNG copy)> <./Figures/lec5_beeSingleChain74.png (PNG copy)> <./Figures/lec5
+_beeSingleChain75.png (PNG copy)> <./Figures/lec5_beeSingleChain76.png (PNG cop
+y)> <./Figures/lec5_beeSingleChain77.png (PNG copy)> <./Figures/lec5_beeSingleC
+hain78.png (PNG copy)> <./Figures/lec5_beeSingleChain79.png (PNG copy)> <./Figu
+res/lec5_beeSingleChain80.png (PNG copy)>
+Overfull \vbox (0.89198pt too high) detected at line 681
+ []
+
+[58
+
+] <./Figures/lec5_beeMultipleChainWithout1.png (PNG copy)> <./Figures/lec5_beeM
+ultipleChainWithout2.png (PNG copy)> <./Figures/lec5_beeMultipleChainWithout3.p
+ng (PNG copy)> <./Figures/lec5_beeMultipleChainWithout4.png (PNG copy)> <./Figu
+res/lec5_beeMultipleChainWithout5.png (PNG copy)> <./Figures/lec5_beeMultipleCh
+ainWithout6.png (PNG copy)> <./Figures/lec5_beeMultipleChainWithout7.png (PNG c
+opy)> <./Figures/lec5_beeMultipleChainWithout8.png (PNG copy)> <./Figures/lec5_
+beeMultipleChainWithout9.png (PNG copy)> <./Figures/lec5_beeMultipleChainWithou
+t10.png (PNG copy)> <./Figures/lec5_beeMultipleChainWithout11.png (PNG copy)> <
+./Figures/lec5_beeMultipleChainWithout12.png (PNG copy)> <./Figures/lec5_beeMul
+tipleChainWithout13.png (PNG copy)> <./Figures/lec5_beeMultipleChainWithout14.p
+ng (PNG copy)> <./Figures/lec5_beeMultipleChainWithout15.png (PNG copy)> <./Fig
+ures/lec5_beeMultipleChainWithout16.png (PNG copy)> <./Figures/lec5_beeMultiple
+ChainWithout17.png (PNG copy)> <./Figures/lec5_beeMultipleChainWithout18.png (P
+NG copy)> <./Figures/lec5_beeMultipleChainWithout19.png (PNG copy)> <./Figures/
+lec5_beeMultipleChainWithout20.png (PNG copy)> <./Figures/lec5_beeMultipleChain
+Without21.png (PNG copy)> <./Figures/lec5_beeMultipleChainWithout22.png (PNG co
+py)> <./Figures/lec5_beeMultipleChainWithout23.png (PNG copy)> <./Figures/lec5_
+beeMultipleChainWithout24.png (PNG copy)> <./Figures/lec5_beeMultipleChainWitho
+ut25.png (PNG copy)> <./Figures/lec5_beeMultipleChainWithout26.png (PNG copy)> 
+<./Figures/lec5_beeMultipleChainWithout27.png (PNG copy)> <./Figures/lec5_beeMu
+ltipleChainWithout28.png (PNG copy)> <./Figures/lec5_beeMultipleChainWithout29.
+png (PNG copy)> <./Figures/lec5_beeMultipleChainWithout30.png (PNG copy)> <./Fi
+gures/lec5_beeMultipleChainWithout31.png (PNG copy)> <./Figures/lec5_beeMultipl
+eChainWithout32.png (PNG copy)> <./Figures/lec5_beeMultipleChainWithout33.png (
+PNG copy)> <./Figures/lec5_beeMultipleChainWithout34.png (PNG copy)> <./Figures
+/lec5_beeMultipleChainWithout35.png (PNG copy)> <./Figures/lec5_beeMultipleChai
+nWithout36.png (PNG copy)> <./Figures/lec5_beeMultipleChainWithout37.png (PNG c
+opy)> <./Figures/lec5_beeMultipleChainWithout38.png (PNG copy)> <./Figures/lec5
+_beeMultipleChainWithout39.png (PNG copy)> <./Figures/lec5_beeMultipleChainWith
+out40.png (PNG copy)> [59
+
+] <./Figures/lec5_beeMultipleChainWith1.png (PNG copy)> <./Figures/lec5_beeMult
+ipleChainWith2.png (PNG copy)> <./Figures/lec5_beeMultipleChainWith3.png (PNG c
+opy)> <./Figures/lec5_beeMultipleChainWith4.png (PNG copy)> <./Figures/lec5_bee
+MultipleChainWith5.png (PNG copy)> <./Figures/lec5_beeMultipleChainWith6.png (P
+NG copy)> <./Figures/lec5_beeMultipleChainWith7.png (PNG copy)> <./Figures/lec5
+_beeMultipleChainWith8.png (PNG copy)> <./Figures/lec5_beeMultipleChainWith9.pn
+g (PNG copy)> <./Figures/lec5_beeMultipleChainWith10.png (PNG copy)> <./Figures
+/lec5_beeMultipleChainWith11.png (PNG copy)> <./Figures/lec5_beeMultipleChainWi
+th12.png (PNG copy)> <./Figures/lec5_beeMultipleChainWith13.png (PNG copy)> <./
+Figures/lec5_beeMultipleChainWith14.png (PNG copy)> <./Figures/lec5_beeMultiple
+ChainWith15.png (PNG copy)> <./Figures/lec5_beeMultipleChainWith16.png (PNG cop
+y)> <./Figures/lec5_beeMultipleChainWith17.png (PNG copy)> <./Figures/lec5_beeM
+ultipleChainWith18.png (PNG copy)> <./Figures/lec5_beeMultipleChainWith19.png (
+PNG copy)> <./Figures/lec5_beeMultipleChainWith20.png (PNG copy)> <./Figures/le
+c5_beeMultipleChainWith21.png (PNG copy)> <./Figures/lec5_beeMultipleChainWith2
+2.png (PNG copy)> <./Figures/lec5_beeMultipleChainWith23.png (PNG copy)> <./Fig
+ures/lec5_beeMultipleChainWith24.png (PNG copy)> <./Figures/lec5_beeMultipleCha
+inWith25.png (PNG copy)> <./Figures/lec5_beeMultipleChainWith26.png (PNG copy)>
+ <./Figures/lec5_beeMultipleChainWith27.png (PNG copy)> <./Figures/lec5_beeMult
+ipleChainWith28.png (PNG copy)> <./Figures/lec5_beeMultipleChainWith29.png (PNG
+ copy)> <./Figures/lec5_beeMultipleChainWith30.png (PNG copy)> <./Figures/lec5_
+beeMultipleChainWith31.png (PNG copy)> <./Figures/lec5_beeMultipleChainWith32.p
+ng (PNG copy)> <./Figures/lec5_beeMultipleChainWith33.png (PNG copy)> <./Figure
+s/lec5_beeMultipleChainWith34.png (PNG copy)> <./Figures/lec5_beeMultipleChainW
+ith35.png (PNG copy)> <./Figures/lec5_beeMultipleChainWith36.png (PNG copy)> <.
+/Figures/lec5_beeMultipleChainWith37.png (PNG copy)> <./Figures/lec5_beeMultipl
+eChainWith38.png (PNG copy)> <./Figures/lec5_beeMultipleChainWith39.png (PNG co
+py)> <./Figures/lec5_beeMultipleChainWith40.png (PNG copy)> [60
+
+] <./Figures/lec5_beeMultipleChainWithoutDispersed1.png (PNG copy)> <./Figures/
+lec5_beeMultipleChainWithoutDispersed2.png (PNG copy)> <./Figures/lec5_beeMulti
+pleChainWithoutDispersed3.png (PNG copy)> <./Figures/lec5_beeMultipleChainWitho
+utDispersed4.png (PNG copy)> <./Figures/lec5_beeMultipleChainWithoutDispersed5.
+png (PNG copy)> <./Figures/lec5_beeMultipleChainWithoutDispersed6.png (PNG copy
+)> <./Figures/lec5_beeMultipleChainWithoutDispersed7.png (PNG copy)> <./Figures
+/lec5_beeMultipleChainWithoutDispersed8.png (PNG copy)> <./Figures/lec5_beeMult
+ipleChainWithoutDispersed9.png (PNG copy)> <./Figures/lec5_beeMultipleChainWith
+outDispersed10.png (PNG copy)> <./Figures/lec5_beeMultipleChainWithoutDispersed
+11.png (PNG copy)> <./Figures/lec5_beeMultipleChainWithoutDispersed12.png (PNG 
+copy)> <./Figures/lec5_beeMultipleChainWithoutDispersed13.png (PNG copy)> <./Fi
+gures/lec5_beeMultipleChainWithoutDispersed14.png (PNG copy)> <./Figures/lec5_b
+eeMultipleChainWithoutDispersed15.png (PNG copy)> <./Figures/lec5_beeMultipleCh
+ainWithoutDispersed16.png (PNG copy)> <./Figures/lec5_beeMultipleChainWithoutDi
+spersed17.png (PNG copy)> <./Figures/lec5_beeMultipleChainWithoutDispersed18.pn
+g (PNG copy)> <./Figures/lec5_beeMultipleChainWithoutDispersed19.png (PNG copy)
+> <./Figures/lec5_beeMultipleChainWithoutDispersed20.png (PNG copy)> <./Figures
+/lec5_beeMultipleChainWithoutDispersed21.png (PNG copy)> <./Figures/lec5_beeMul
+tipleChainWithoutDispersed22.png (PNG copy)> <./Figures/lec5_beeMultipleChainWi
+thoutDispersed23.png (PNG copy)> <./Figures/lec5_beeMultipleChainWithoutDispers
+ed24.png (PNG copy)> <./Figures/lec5_beeMultipleChainWithoutDispersed25.png (PN
+G copy)> <./Figures/lec5_beeMultipleChainWithoutDispersed26.png (PNG copy)> <./
+Figures/lec5_beeMultipleChainWithoutDispersed27.png (PNG copy)> <./Figures/lec5
+_beeMultipleChainWithoutDispersed28.png (PNG copy)> <./Figures/lec5_beeMultiple
+ChainWithoutDispersed29.png (PNG copy)> <./Figures/lec5_beeMultipleChainWithout
+Dispersed30.png (PNG copy)> <./Figures/lec5_beeMultipleChainWithoutDispersed31.
+png (PNG copy)> <./Figures/lec5_beeMultipleChainWithoutDispersed32.png (PNG cop
+y)> <./Figures/lec5_beeMultipleChainWithoutDispersed33.png (PNG copy)> <./Figur
+es/lec5_beeMultipleChainWithoutDispersed34.png (PNG copy)> <./Figures/lec5_beeM
+ultipleChainWithoutDispersed35.png (PNG copy)> <./Figures/lec5_beeMultipleChain
+WithoutDispersed36.png (PNG copy)> <./Figures/lec5_beeMultipleChainWithoutDispe
+rsed37.png (PNG copy)> <./Figures/lec5_beeMultipleChainWithoutDispersed38.png (
+PNG copy)> <./Figures/lec5_beeMultipleChainWithoutDispersed39.png (PNG copy)> <
+./Figures/lec5_beeMultipleChainWithoutDispersed40.png (PNG copy)>
+[61
+
+] <./Figures/lec5_beeMultipleChainWithoutDispersedLater1.png (PNG copy)> <./Fig
+ures/lec5_beeMultipleChainWithoutDispersedLater2.png (PNG copy)> <./Figures/lec
+5_beeMultipleChainWithoutDispersedLater3.png (PNG copy)> <./Figures/lec5_beeMul
+tipleChainWithoutDispersedLater4.png (PNG copy)> <./Figures/lec5_beeMultipleCha
+inWithoutDispersedLater5.png (PNG copy)> <./Figures/lec5_beeMultipleChainWithou
+tDispersedLater6.png (PNG copy)> <./Figures/lec5_beeMultipleChainWithoutDispers
+edLater7.png (PNG copy)> <./Figures/lec5_beeMultipleChainWithoutDispersedLater8
+.png (PNG copy)> <./Figures/lec5_beeMultipleChainWithoutDispersedLater9.png (PN
+G copy)> <./Figures/lec5_beeMultipleChainWithoutDispersedLater10.png (PNG copy)
+> <./Figures/lec5_beeMultipleChainWithoutDispersedLater11.png (PNG copy)> <./Fi
+gures/lec5_beeMultipleChainWithoutDispersedLater12.png (PNG copy)> <./Figures/l
+ec5_beeMultipleChainWithoutDispersedLater13.png (PNG copy)> <./Figures/lec5_bee
+MultipleChainWithoutDispersedLater14.png (PNG copy)> <./Figures/lec5_beeMultipl
+eChainWithoutDispersedLater15.png (PNG copy)> <./Figures/lec5_beeMultipleChainW
+ithoutDispersedLater16.png (PNG copy)> <./Figures/lec5_beeMultipleChainWithoutD
+ispersedLater17.png (PNG copy)> <./Figures/lec5_beeMultipleChainWithoutDisperse
+dLater18.png (PNG copy)> <./Figures/lec5_beeMultipleChainWithoutDispersedLater1
+9.png (PNG copy)> <./Figures/lec5_beeMultipleChainWithoutDispersedLater20.png (
+PNG copy)> <./Figures/lec5_beeMultipleChainWithoutDispersedLater21.png (PNG cop
+y)> [62
+
+] [63
+
+] [64
+
+] <./Figures/warmup.jpg, id=8203, 813.0375pt x 688.5725pt>
+File: ./Figures/warmup.jpg Graphic file (type jpg)
+
+<use ./Figures/warmup.jpg>
+Package pdftex.def Info: ./Figures/warmup.jpg used on input line 774.
+(pdftex.def)             Requested size: 290.74263pt x 246.22583pt.
+
+Overfull \vbox (127.15424pt too high) detected at line 774
+ []
+
+[65
+
+ <./Figures/warmup.jpg>]
+<./Figures/lec4_warmUp1.pdf, id=8209, 361.35pt x 245.91875pt>
+File: ./Figures/lec4_warmUp1.pdf Graphic file (type pdf)
+
+<use ./Figures/lec4_warmUp1.pdf>
+Package pdftex.def Info: ./Figures/lec4_warmUp1.pdf used on input line 784.
+(pdftex.def)             Requested size: 290.74263pt x 197.86848pt.
+
+Overfull \vbox (3.05937pt too high) detected at line 784
+ []
+
+[66
+
+ <./Figures/lec4_warmUp1.pdf>]
+<./Figures/lec4_warmUp2.pdf, id=8237, 361.35pt x 245.91875pt>
+File: ./Figures/lec4_warmUp2.pdf Graphic file (type pdf)
+
+<use ./Figures/lec4_warmUp2.pdf>
+Package pdftex.def Info: ./Figures/lec4_warmUp2.pdf used on input line 794.
+(pdftex.def)             Requested size: 290.74263pt x 197.86848pt.
+
+Overfull \vbox (3.05937pt too high) detected at line 794
+ []
+
+[67
+
+ <./Figures/lec4_warmUp2.pdf>] (./applied_ode_modelling.toc) [68
+
+] <./Figures/lec5_MetropolisInefficient1.png (PNG copy)> <./Figures/lec5_Metrop
+olisInefficient2.png (PNG copy)> <./Figures/lec5_MetropolisInefficient3.png (PN
+G copy)> <./Figures/lec5_MetropolisInefficient4.png (PNG copy)> <./Figures/lec5
+_MetropolisInefficient5.png (PNG copy)> <./Figures/lec5_MetropolisInefficient6.
+png (PNG copy)> <./Figures/lec5_MetropolisInefficient7.png (PNG copy)> <./Figur
+es/lec5_MetropolisInefficient8.png (PNG copy)> <./Figures/lec5_MetropolisIneffi
+cient9.png (PNG copy)> <./Figures/lec5_MetropolisInefficient10.png (PNG copy)> 
+<./Figures/lec5_MetropolisInefficient11.png (PNG copy)> <./Figures/lec5_Metropo
+lisInefficient12.png (PNG copy)> <./Figures/lec5_MetropolisInefficient13.png (P
+NG copy)> <./Figures/lec5_MetropolisInefficient14.png (PNG copy)> <./Figures/le
+c5_MetropolisInefficient15.png (PNG copy)> <./Figures/lec5_MetropolisInefficien
+t16.png (PNG copy)> <./Figures/lec5_MetropolisInefficient17.png (PNG copy)> <./
+Figures/lec5_MetropolisInefficient18.png (PNG copy)> <./Figures/lec5_Metropolis
+Inefficient19.png (PNG copy)> <./Figures/lec5_MetropolisInefficient20.png (PNG 
+copy)> <./Figures/lec5_MetropolisInefficient21.png (PNG copy)> <./Figures/lec5_
+MetropolisInefficient22.png (PNG copy)> <./Figures/lec5_MetropolisInefficient23
+.png (PNG copy)> <./Figures/lec5_MetropolisInefficient24.png (PNG copy)> <./Fig
+ures/lec5_MetropolisInefficient25.png (PNG copy)> <./Figures/lec5_MetropolisIne
+fficient26.png (PNG copy)> <./Figures/lec5_MetropolisInefficient27.png (PNG cop
+y)> <./Figures/lec5_MetropolisInefficient28.png (PNG copy)> <./Figures/lec5_Met
+ropolisInefficient29.png (PNG copy)> <./Figures/lec5_MetropolisInefficient30.pn
+g (PNG copy)> <./Figures/lec5_MetropolisInefficient31.png (PNG copy)> <./Figure
+s/lec5_MetropolisInefficient32.png (PNG copy)> <./Figures/lec5_MetropolisIneffi
+cient33.png (PNG copy)> <./Figures/lec5_MetropolisInefficient34.png (PNG copy)>
+ <./Figures/lec5_MetropolisInefficient35.png (PNG copy)> <./Figures/lec5_Metrop
+olisInefficient36.png (PNG copy)> <./Figures/lec5_MetropolisInefficient37.png (
+PNG copy)> <./Figures/lec5_MetropolisInefficient38.png (PNG copy)> <./Figures/l
+ec5_MetropolisInefficient39.png (PNG copy)> <./Figures/lec5_MetropolisInefficie
+nt40.png (PNG copy)> <./Figures/lec5_MetropolisInefficient41.png (PNG copy)> <.
+/Figures/lec5_MetropolisInefficient42.png (PNG copy)> <./Figures/lec5_Metropoli
+sInefficient43.png (PNG copy)> <./Figures/lec5_MetropolisInefficient44.png (PNG
+ copy)> <./Figures/lec5_MetropolisInefficient45.png (PNG copy)> <./Figures/lec5
+_MetropolisInefficient46.png (PNG copy)> <./Figures/lec5_MetropolisInefficient4
+7.png (PNG copy)> <./Figures/lec5_MetropolisInefficient48.png (PNG copy)> <./Fi
+gures/lec5_MetropolisInefficient49.png (PNG copy)> <./Figures/lec5_MetropolisIn
+efficient50.png (PNG copy)>
+Overfull \vbox (8.91292pt too high) detected at line 806
+ []
+
+[69
+
+] [70
+
+] [71
+
+] <./Figures/adaptive_cartoon1.png (PNG copy)> <./Figures/adaptive_cartoon2.png
+ (PNG copy)> <./Figures/adaptive_cartoon3.png (PNG copy)> <./Figures/adaptive_c
+artoon4.png (PNG copy)> <./Figures/adaptive_cartoon5.png (PNG copy)> <./Figures
+/adaptive_cartoon6.png (PNG copy)>
+Overfull \vbox (8.70941pt too high) detected at line 840
+ []
+
+[72
+
+] [73
+
+] (./applied_ode_modelling.toc) [74
+
+]
+<./Figures/bacteria.png, id=8624, 1477.52pt x 1209.51875pt>
+File: ./Figures/bacteria.png Graphic file (type png)
+
+<use ./Figures/bacteria.png>
+Package pdftex.def Info: ./Figures/bacteria.png used on input line 872.
+(pdftex.def)             Requested size: 290.74263pt x 238.0053pt.
+
+Overfull \vbox (129.79622pt too high) detected at line 872
+ []
+
+[75
+
+ <./Figures/bacteria.png (PNG copy)>]
+<./Figures/lec7_odeSingle.pdf, id=8630, 803.0pt x 541.02126pt>
+File: ./Figures/lec7_odeSingle.pdf Graphic file (type pdf)
+
+<use ./Figures/lec7_odeSingle.pdf>
+Package pdftex.def Info: ./Figures/lec7_odeSingle.pdf used on input line 881.
+(pdftex.def)             Requested size: 290.74263pt x 195.89021pt.
+
+Overfull \vbox (1.0811pt too high) detected at line 881
+ []
+
+[76
+
+ <./Figures/lec7_odeSingle.pdf>] [77
+
+] [78
+
+]
+<./Figures/lec7_odeSingleBulding1.pdf, id=8667, 578.16pt x 390.45876pt>
+File: ./Figures/lec7_odeSingleBulding1.pdf Graphic file (type pdf)
+
+<use ./Figures/lec7_odeSingleBulding1.pdf>
+Package pdftex.def Info: ./Figures/lec7_odeSingleBulding1.pdf used on input lin
+e 933.
+(pdftex.def)             Requested size: 290.74263pt x 196.34898pt.
+
+Overfull \vbox (17.87737pt too high) detected at line 933
+ []
+
+[79
+
+ <./Figures/lec7_odeSingleBulding1.pdf>]
+<./Figures/lec7_odeSingleBulding2.pdf, id=8700, 578.16pt x 390.45876pt>
+File: ./Figures/lec7_odeSingleBulding2.pdf Graphic file (type pdf)
+
+<use ./Figures/lec7_odeSingleBulding2.pdf>
+Package pdftex.def Info: ./Figures/lec7_odeSingleBulding2.pdf used on input lin
+e 943.
+(pdftex.def)             Requested size: 290.74263pt x 196.34898pt.
+
+Overfull \vbox (17.26904pt too high) detected at line 943
+ []
+
+[80
+
+ <./Figures/lec7_odeSingleBulding2.pdf>]
+<./Figures/lec7_odeSingleBulding3.pdf, id=8732, 578.16pt x 390.45876pt>
+File: ./Figures/lec7_odeSingleBulding3.pdf Graphic file (type pdf)
+
+<use ./Figures/lec7_odeSingleBulding3.pdf>
+Package pdftex.def Info: ./Figures/lec7_odeSingleBulding3.pdf used on input lin
+e 953.
+(pdftex.def)             Requested size: 290.74263pt x 196.34898pt.
+
+Overfull \vbox (17.26904pt too high) detected at line 953
+ []
+
+[81
+
+ <./Figures/lec7_odeSingleBulding3.pdf>] [82
+
+] [83
+
+] [84
+
+] [85
+
+]
+Package atenddvi Info: Last page = 86.
+ [86
+
+]
+\tf@nav=\write8
+\openout8 = `applied_ode_modelling.nav'.
+
+\tf@toc=\write9
+\openout9 = `applied_ode_modelling.toc'.
+
+\tf@snm=\write10
+\openout10 = `applied_ode_modelling.snm'.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1052.
+Package atveryend Info: Executing hook `AfterLastShipout' on input line 1052.
+
+(./applied_ode_modelling.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1052.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1052.
+
+Package rerunfilecheck Info: File `applied_ode_modelling.out' has not changed.
+(rerunfilecheck)             Checksum: 72CDEF0A5119EF9DB4B29419B3A8A1AE;314.
+
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 1.0pt have occurred.
+
+Package logreq Info: Writing requests to 'applied_ode_modelling.run.xml'.
+\openout1 = `applied_ode_modelling.run.xml'.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1052.
+ ) 
+Here is how much of TeX's memory you used:
+ 41226 strings out of 493014
+ 818219 string characters out of 6133352
+ 1094648 words of memory out of 5000000
+ 42854 multiletter control sequences out of 15000+600000
+ 18540 words of font info for 67 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 57i,16n,96p,10425b,750s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
+></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
+</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><
+/usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></u
+sr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></us
+r/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr
+/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/l
+ocal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/
+local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/
+local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi12.pfb></usr/
+local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/l
+ocal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/lo
+cal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/loca
+l/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/
+texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on applied_ode_modelling.pdf (86 pages, 58380673 bytes).
+PDF statistics:
+ 8893 PDF objects out of 8907 (max. 8388607)
+ 4757 compressed objects within 48 object streams
+ 178 named destinations out of 1000 (max. 500000)
+ 18035 words of extra memory for PDF output out of 20736 (max. 10000000)
+
